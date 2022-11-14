@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <!-- TODO: Update blank fragment layout -->
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/purple_500"
+        android:elevation="10dp"
+        android:scrollbarSize="10dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:subtitle=" Thông tin trò chơi"
+        app:title=" Quizzie"
+        app:titleTextAppearance="@style/TextAppearance.AppCompat.Medium" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="57dp"
+        android:layout_marginBottom="598dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Nhóm phát triển trò chơi:"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="66dp"
+        android:layout_marginBottom="553dp"
+        android:gravity="center"
+        android:text="1. Ngô Minh Đức - 20021517"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="516dp"
+        android:gravity="center"
+        android:text="2. Nguyễn Trung Hiếu - 20021529"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="267dp"
+        android:layout_marginBottom="426dp"
+        android:fontFamily="sans-serif-black"
+        android:gravity="center"
+        android:text="Contact:  "
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="346dp"
+        android:gravity="center"
+        android:text="20021517@vnu.edu.vn"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="264dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="387dp"
+        android:gravity="center"
+        android:text="20021529@vnu.edu.vn"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+</RelativeLayout>

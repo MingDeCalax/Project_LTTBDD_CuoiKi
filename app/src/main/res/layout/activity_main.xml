@@ -24,4 +24,13 @@
         app:menu="@menu/bottom_nav_menu"
         tools:layout_editor_absoluteX="0dp" />
 
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar"
+        />
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/content_frame"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
