@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/topics_title"
+        android:layout_width="413dp"
+        android:layout_height="134dp"
+        android:text="Chọn lĩnh vực \n mà bạn muốn trả lời: "
+        android:textAlignment="center"
+        android:textSize="35dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        tools:layout_editor_absoluteY="60dp" />
+
+    <ScrollView
+        android:layout_width="411dp"
+        android:layout_height="502dp"
+
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/math_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Toán học"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/math_icon"
+                />
+            <Button
+                android:id="@+id/literature_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Văn học"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/literature_icon"
+                />
+            <Button
+                android:id="@+id/sports_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Thể thao"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/sports_icon"
+                />
+            <Button
+                android:id="@+id/economics_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Kinh tế"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/economics_icon"
+
+                />
+            <Button
+                android:id="@+id/music_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Âm nhạc"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/music_icon"
+                />
+            <Button
+                android:id="@+id/weather_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="Thời tiết"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:drawableLeft="@drawable/weather_icon"
+                />
+        </LinearLayout>
+
+
+
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>
