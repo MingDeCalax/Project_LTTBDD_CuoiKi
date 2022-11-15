@@ -4,15 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    >
+
+<!--    tools:context=".MainActivity"-->
+
 
     <FrameLayout
-        android:id="@+id/flFragment"
-        android:layout_width="417dp"
-        android:layout_height="585dp"
+        android:id="@+id/content_frame"
+        android:layout_width="409dp"
+        android:layout_height="625dp"
+        android:layout_marginBottom="4dp"
         app:layout_constraintBottom_toTopOf="@+id/bottomNavigationView"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
@@ -28,9 +32,5 @@
         android:id="@+id/toolbar"
         layout="@layout/toolbar"
         />
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:id="@+id/content_frame"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
