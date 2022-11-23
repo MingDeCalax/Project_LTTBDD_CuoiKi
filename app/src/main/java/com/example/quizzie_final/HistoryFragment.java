@@ -10,52 +10,81 @@ import android.view.ViewGroup;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
+import org.w3c.dom.Text;
+
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
+import java.util.Arrays;
 import java.util.Date;
+import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class HistoryFragment extends Fragment {
-    private final static SimpleDateFormat sdf = new SimpleDateFormat("'HH:mm  ' 'dd/MM/yyyy'");
-    private static String time;
-    private static String topic;
-    private static int count = 0;
-    View view;
+    public static class History {
+        public String time = "MM:HH DD/MM/YY";
+        public int count = 0;
+        public String difficulty = "Empty";
+
+        public History() {
+            //empty
+        }
+
+        public void set(String _time, int _count, String _difficulty) {
+            this.time = _time;
+            this.count = _count;
+            this.difficulty = _difficulty;
+        }
+    }
+
+
+        private final static SimpleDateFormat sdf = new SimpleDateFormat("'HH:mm  ' 'dd/MM/yyyy'");
+        public static History current =  new History();
+        public static ArrayList<History> listHistory =  new ArrayList<History>();
+
+        public static void initTime(){
+            current.time = sdf.format(new Date());
+        }
+
+        public static void addAndReset(){
+            listHistory.add(current);
+            current = new History();
+        }
+
+        public static void increaseCount(){
+            current.count+=1;
+        }
+
     //time = sdf.format(new Date());
     public HistoryFragment() {
         // Required empty public constructor
     }
-
-
-    public static void initHistory(String _topic){
-        time = sdf.format(new Date());
-        topic = _topic;
-    }
-    public static void increaseCount(){
-        count+=1;
-    }
-    public static void addAndReset(LinearLayout historyList, View historyView){
-
-        TextView numOfAnwers = historyView.findViewById(R.id.right_answers);
-        TextView topicField = historyView.findViewById(R.id.topic);
-        TextView timeField = historyView.findViewById(R.id.time);
-        numOfAnwers.setText(count + "/5");
-        topicField.setText(topic);
-        timeField.setText(time);
-        historyList.addView(historyView);
-    }
-
-
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
     }
 
-
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+
         // Inflate the layout for this fragment
-        view = inflater.inflate(R.layout.history_fragment, container, false);
+        View view = inflater.inflate(R.layout.history_fragment, container, false);
+        LinearLayout list = (LinearLayout) view.findViewById(R.id.history_list);
+        for (History history : listHistory) {
+            addHistory(list, history);
+        }
         return view;
     }
+    // add a view in linear layout
+    private void addHistory(LinearLayout list, History history){
+        View historyView = getLayoutInflater().inflate(R.layout.history_view, null);
+        TextView corrects = historyView.findViewById(R.id.corrects);
+        TextView topic_difficulty = historyView.findViewById(R.id.topic_difficulty);
+        TextView time = historyView.findViewById(R.id.time);
+        corrects.setText(history.count + "/5");
+        topic_difficulty.setText(history.count + "/5");
+        time.setText(history.time);
+        list.addView(historyView);
+    }
+
 }
