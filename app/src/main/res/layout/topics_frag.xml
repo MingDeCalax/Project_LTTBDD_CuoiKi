@@ -40,7 +40,8 @@
                 android:text="Toán học"
                 android:textAlignment="center"
                 android:textSize="30dp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                android:onClick=""/>
 
             <Button
                 android:id="@+id/literature_button"
