@@ -5,10 +5,10 @@
     <item
     android:id="@+id/game"
     android:title="Play"
-    android:icon="@drawable/game_icon" />
+    android:icon="@drawable/game_icon"/>
 
     <item
         android:id="@+id/history"
         android:title="History"
-        android:icon="@drawable/history_icon" />
+        android:icon="@drawable/history_icon"/>
 </menu>

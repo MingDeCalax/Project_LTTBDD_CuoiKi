@@ -24,16 +24,11 @@ public class HistoryFragment extends Fragment {
         public String time = "MM:HH DD/MM/YY";
         public int count = 0;
         public String difficulty = "Empty";
-
+        public String topic = "Empty";
         public History() {
             //empty
         }
 
-        public void set(String _time, int _count, String _difficulty) {
-            this.time = _time;
-            this.count = _count;
-            this.difficulty = _difficulty;
-        }
     }
 
 
@@ -54,7 +49,20 @@ public class HistoryFragment extends Fragment {
             current.count+=1;
         }
 
-    //time = sdf.format(new Date());
+        public static void setDifficulty(String _difficulty){
+            current.difficulty = _difficulty;
+        }
+        public static void setTopic(String _topic){
+            current.topic = _topic;
+        }
+        public static String getDifficulty(){
+            return current.difficulty;
+        }
+        public static String getTopic(){
+            return current.topic;
+        }
+
+
     public HistoryFragment() {
         // Required empty public constructor
     }

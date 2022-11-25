@@ -26,7 +26,11 @@
         app:itemRippleColor="@color/cardview_dark_background"
         app:layout_constraintBottom_toBottomOf="parent"
         app:menu="@menu/bottom_nav_menu"
-        tools:layout_editor_absoluteX="0dp" />
+        tools:layout_editor_absoluteX="0dp"
+        app:flow_verticalAlign="center"
+        android:layoutDirection="ltr"
+
+        />
 
     <include
         android:id="@+id/toolbar"

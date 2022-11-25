@@ -4,20 +4,24 @@
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
-    <androidx.cardview.widget.CardView
+    <com.google.android.material.card.MaterialCardView
+        app:cardPreventCornerOverlap="true"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         app:cardCornerRadius="15dp"
         app:cardElevation="10dp"
         app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/paperRead">
+        android:background="@color/paperRead"
+        android:paddingBottom="@dimen/cardview_compat_inset_shadow"
+        app:layout_constraintCircleRadius="@dimen/cardview_default_radius">
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="28dp"
+                android:layout_width="35dp"
                 android:layout_height="match_parent"
                 android:textAlignment="center"
                 android:background="@drawable/ic_baseline_check_box_24"
@@ -26,7 +30,7 @@
                 android:id="@+id/corrects"
                 android:layout_width="100dp"
                 android:layout_height="fill_parent"
-                android:layout_gravity="center"
+                android:layout_gravity="center_horizontal"
                 android:text="Empty"
                 android:textSize="24dp"
                 />
@@ -34,16 +38,17 @@
                 android:id="@+id/topic_difficulty"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
                 android:text="Empty\nEmpty"
                 />
             <TextView
                 android:id="@+id/time"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center"
+                android:layout_gravity="center_horizontal"
                 android:text="MM:HH DD/MM/YY"
                 />
 
         </LinearLayout>
-    </androidx.cardview.widget.CardView>
+    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

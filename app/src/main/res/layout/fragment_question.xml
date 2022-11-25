@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".QuestionFragment">
+        <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="74dp"
+        android:text="Câu hỏi số 1:"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteY="60dp" />
+
+
+    <!-- TODO: Update blank fragment layout -->
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/question"
+        android:layout_marginTop="0dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/question"
+
+            android:layout_alignParentEnd="true"
+            android:orientation="horizontal">
+
+
+            <Button
+                android:id="@+id/a_button"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="A"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/b_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="B"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                />
+
+            <Button
+                android:id="@+id/c_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="C"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+            <Button
+                android:id="@+id/d_button"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:text="C"
+                android:textAlignment="center"
+                android:textSize="30dp" />
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
