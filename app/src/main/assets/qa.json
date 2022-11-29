@@ -1200,272 +1200,2132 @@
   "sports": {
     "easy": [
       {
-        "question": "",
+        "question": "Leonel Messi là cầu thủ nước nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Việt Nam",
+          "Argentina",
+          "Brazil",
+          "Pháp"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Quỷ đỏ thành Manchester là tên gọi của đội bóng nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Manchester United",
+          "Manchester City",
+          "Manchester Country",
+          "Manchester Province"
         ],
-        "correct":
+        "correct":1
+      },
+      {
+        "question": "Đội bóng nào có tên gọi là Pháo Thủ?",
+        "answers": [
+          "Barcelona",
+          "Real Madrid",
+          "Dortmund",
+          "Arsenal"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Table Tennis là tên bộ môn nào?",
+        "answers": [
+          "Bóng bàn",
+          "Bóng đá",
+          "Bóng rổ",
+          "Bóng chuyền"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đâu là vận động viên/cầu thủ bóng rổ?",
+        "answers": [
+          "Công Phượng",
+          "Quang Hải",
+          "Lebron James",
+          "Kaka"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Lewis Hamilton là vận động viên bộ môn nào?",
+        "answers": [
+          "Đua xe F1",
+          "Đua xe motor",
+          "Quần vợt",
+          "Đua xe đạp"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Sân vận động quốc gia Việt Nam nằm ở đâu?",
+        "answers": [
+          "Mỹ Đình",
+          "Mỹ Tho",
+          "TP Hồ Chí Minh",
+          "Huế"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Sea Game nào được tổ chức tại Việt Nam?",
+        "answers": [
+          "29",
+          "30",
+          "31",
+          "32"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Andy Murray là vận động viên Tennis nước nào?",
+        "answers": [
+          "Tây Ban Nha",
+          "Mỹ",
+          "Serbia",
+          "Anh"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Vua bóng đá là biệt danh của ai?",
+        "answers": [
+          "Pele",
+          "Park Han Seo",
+          "Ronaldo de Lima",
+          "Roberto Carlos"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Real Madrid là đội bóng nước nào?",
+        "answers": [
+          "Tây Ban Nha",
+          "Pháp",
+          "Đức",
+          "Ý"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đội bóng nào có tên gọi là Vàng-Đen?",
+        "answers": [
+          "Barcelona",
+          "Real Madrid",
+          "Dortmund",
+          "Arsenal"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Basketball là tên bộ môn nào?",
+        "answers": [
+          "Bóng bàn",
+          "Bóng đá",
+          "Bóng rổ",
+          "Bóng chuyền"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đâu là vận động viên/cầu thủ bóng đá?",
+        "answers": [
+          "Tiger Wood",
+          "Lin Dan",
+          "Lebron James",
+          "Thierry Henry"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Serena Williams là vận động viên bộ môn nào?",
+        "answers": [
+          "Đua xe F1",
+          "Đua xe motor",
+          "Quần vợt",
+          "Đua xe đạp"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Giải bóng đá hạng 1 của Pháp có tên là gì?",
+        "answers": [
+          "Leagiue 1",
+          "Premier League",
+          "League 1",
+          "Ligue 1"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Sea Game nào được tổ chức tại Philippines?",
+        "answers": [
+          "29",
+          "30",
+          "31",
+          "32"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Roger Federer là vận động viên Tennis nước nào?",
+        "answers": [
+          "Tây Ban Nha",
+          "Thủy Sĩ",
+          "Serbia",
+          "Anh"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Der Kaiser là biệt danh của ai?",
+        "answers": [
+          "Pele",
+          "Andriano",
+          "Ronaldinho",
+          "Franz Beckenbauer"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Người ngoài hành tinh là biệt danh của ai?",
+        "answers": [
+          "Cristiano Ronaldo",
+          "Kaka",
+          "Ronaldo Luís Nazário de Lima",
+          "Leonel Messi"
+        ],
+        "correct":3
       }
-    ]
+    ],
     "medium": [
       {
-        "question": "",
+        "question": "Đội bóng nào vô địch World Cup lần đầu tiên?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Brazil",
+          "Uruguay",
+          "Pháp",
+          "Hà Lan"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Tên thật của Tiger Woods?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Henry Wilson Woods",
+          "Henry Becken Woods",
+          "Thomas Wilson Woods",
+          "Eldrick Tont Woods"
         ],
-        "correct":
+        "correct":4
+      },
+      {
+        "question": "VĐV Tennis nam nào được đánh giá là xuất sắc nhất mọi thời đại?",
+        "answers": [
+          "Rafael Nadal",
+          "Pete Sampras",
+          "Novak Djokovic",
+          "Roger Federer"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đội bóng nào vô địch World Cup 1934?",
+        "answers": [
+          "Brazil",
+          "Uruguay",
+          "Pháp",
+          "Ý"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Kỳ thủ số 1 Việt Nam hiện tại là ai?",
+        "answers": [
+          "Lê Quang Liêm",
+          "Lê Văn Liêm",
+          "Lê Quang Liên",
+          "Lê Văn Lan"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Nhà vô địch V-League 2022 là ai?",
+        "answers": [
+          "Hanoi FC",
+          "Becamex Bình Dương",
+          "SHB Đà Nẵng",
+          "CLB Hà Tĩnh"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Nguyễn Thị Ánh Viên là VĐV bộ môn nào?",
+        "answers": [
+          "Điền kinh",
+          "Bơi lội",
+          "Bắn súng",
+          "Bóng đá"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Người Việt Nam đầu tiên đạt HCV tai Thế Vận Hội là ai?",
+        "answers": [
+          "Nguyễn Thị Ánh Viên",
+          "Thạch Bảo Khanh",
+          "Hoàng Xuân Vinh",
+          "Lê Quang Liêm"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đội bóng nào vô địch cúp C1 nhiều nhất?",
+        "answers": [
+          "Manchester United",
+          "Barcelona",
+          "Real Madrid",
+          "Bayern Munich"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đâu là tên của một giải đua xe đạp?",
+        "answers": [
+          "NBA",
+          "Bundesliga",
+          "Wimbledon",
+          "Tour de France"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Black Cat là biệt danh của VĐV nào?",
+        "answers": [
+          "Michael Jordan",
+          "David Beckam",
+          "Rafael Nadal",
+          "Michael Phelps"
+        ],
+        "correct":1
+      },
+      {
+        "question": "The Blues là biệt danh đội bóng nào?",
+        "answers": [
+          "Newcastle",
+          "Liverpool",
+          "Chelsea",
+          "Arsenal"
+        ],
+        "correct":3
+      },
+      {
+        "question": "BWF là viết tắt của tổ chức bộ môn nào?",
+        "answers": [
+          "Cầu lông",
+          "Bơi lội",
+          "Bắn súng",
+          "Bắn cung"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đội tuyển nào vô địch Worlds 2022?",
+        "answers": [
+          "DRX",
+          "T1",
+          "EDG",
+          "RNG"
+        ],
+        "correct":1
+      },
+      {
+        "question": "World Cup lần đầu tiên được tổ chức năm nào?",
+        "answers": [
+          "1920",
+          "1930 ",
+          "1940",
+          "1910"
+        ],
+        "correct":2
       }
     ],
     "hard": [
       {
-        "question": "",
+        "question": "The International là giải thi đấu bộ môn nào",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Dota 2",
+          "CS:GO",
+          "Valorant",
+          "Age of Empires"
         ],
-        "correct":
+        "correct":1
       },
       {
-        "question": "",
+        "question": "Hoàn thiện câu sau: /n Trời sinh Lee Chong Wei sao còn sinh ... ?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Taufik Hidayat",
+          "Chen Long",
+          "Lin Dan",
+          "Peter Gade"
         ],
-        "correct":
+        "correct":3
+      },
+      {
+        "question": "Người về nhi cho danh hiệu quả bóng vàng 2016 là ai?",
+        "answers": [
+          "Cristiano Ronaldo",
+          "Leonel Messi",
+          "Robert Lewandowski",
+          "Karim Benzema"
+        ],
+        "correct": 2
+      },
+      {
+        "question": "S1mple là VĐV thi đấu bộ môn nào",
+        "answers": [
+          "Dota 2",
+          "CS:GO",
+          "Valorant",
+          "Age of Empires"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Đứa con của thần gió là biệt danh của ai?",
+        "answers": [
+          "Thierry Henry",
+          "Maldini",
+          "Gianluigi Buffon",
+          "Michael Ballack"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Người về nhi cho danh hiệu quả bóng vàng 2013 là ai?",
+        "answers": [
+          "Cristiano Ronaldo",
+          "Leonel Messi",
+          "Robert Lewandowski",
+          "Franck Ribery"
+        ],
+        "correct": 4
+      },
+      {
+        "question": "Worlds là giải thi đấu bộ môn nào",
+        "answers": [
+          "Dota 2",
+          "CS:GO",
+          "Valorant",
+          "League of Legends"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Sát thủ có gương mặt trẻ thơ là biệt danh của ai?",
+        "answers": [
+          "Ole Gunnar Solskjær",
+          "Romero Lukaku",
+          "Edinson Cavani",
+          "Sir Alex Ferguson"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đội bóng nào vô địch Premier League 2000-2001?",
+        "answers": [
+          "Arsenal",
+          "Chelsea",
+          "Manchester United",
+          "Newcastle"
+        ],
+        "correct": 3
+      },
+      {
+        "question": "Đội tuyển Đức vô địch World Cup bao nhiêu lần?",
+        "answers": [
+          "3",
+          "4",
+          "5",
+          "6"
+        ],
+        "correct":2
       }
     ]
   },
   "music": {
     "easy": [
       {
-        "question": "",
+        "question": "Bài hát Quốc Ca Việt Nam có tên là?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Quốc Quân Ca",
+          "Tiến Quân Ca",
+          "Toàn Quân Ca",
+          "Quân Dân Ca"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Elton John là nhạc sĩ nước nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Mỹ",
+          "Anh",
+          "Pháp",
+          "Đức"
         ],
-        "correct":
+        "correct":2
+      },
+      {
+        "question": "Đâu là tên bài hát của Sơn Tùng MTP?",
+        "answers": [
+          "Lạc Trôi",
+          "Lạc Lõng",
+          "Vội Vàng",
+          "Thu Cuối"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Quê quán của Sơn Tùng MTP?",
+        "answers": [
+          "Hà Nội",
+          "Nam Định",
+          "Thái Bình",
+          "Thanh Hóa"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Câu hát sau nằm trong bài nào: \n Cơn mưa ngang qua mang em đi xa\nCơn mưa ngang qua khiến em nhạt nhòa ?",
+        "answers": [
+          "Cơn Mưa Ngang Qua",
+          "Em của ngày hôm qua",
+          "Lạc Trôi",
+          "Đập vỡ cây đàn"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Bài hát Đoàn Ca Việt Nam có tên là?",
+        "answers": [
+          "Thanh niên đi theo lời Bác",
+          "Thanh niên vâng theo lời Bác",
+          "Thanh niên nghe theo lời Bác",
+          "Thanh niên làm theo lời Bác"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tên nhạc sĩ/ca sĩ Việt Nam?",
+        "answers": [
+          "Drake",
+          "Madonna",
+          "Justin Bieber",
+          "Wren Evans"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tác phẩm của cố nhạc sĩ Trịnh Công Sơn?",
+        "answers": [
+          "Chào em",
+          "Phôi pha",
+          "Dấu mưa",
+          "Kiếp đỏ đen"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Cố nhạc sĩ Trịnh Công Sơn sinh năm nào?",
+        "answers": [
+          "1939",
+          "1919",
+          "1949",
+          "1929"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Họa Mi tóc nâu là ai?",
+        "answers": [
+          "Lệ Quyên",
+          "Mỹ Tâm",
+          "Thu Phương",
+          "Thùy Chi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Bắp là biệt danh ca sĩ nào?",
+        "answers": [
+          "Ngô Kiến Huy",
+          "Trấn Thành",
+          "Noo Phước Thịnh",
+          "Karik"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Justin Bieber là người nước nào?",
+        "answers": [
+          "Mỹ",
+          "Pháp",
+          "Canada",
+          "Ý"
+        ],
+        "correct":3
+      },
+      {
+        "question": "EDM là tên thể loại nhạc nào?",
+        "answers": [
+          "Đồng quê",
+          "Điện tử",
+          "Rock",
+          "Ballad"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Nhóm nhac BTS có mấy thành viên?",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Nhóm nhac BTS là nhóm nhạc nước nào?",
+        "answers": [
+          "Nhật Bản",
+          "Trung Quốc",
+          "Hàn Quốc",
+          "Việt Nam"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Số thành viên của nhóm nhạc BLACKPINK?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ai là người sáng tác bài Bống bống bang bang?",
+        "answers": [
+          "Nguyễn Phúc Thiện",
+          "Sơn Tùng MTP",
+          "Nguyễn Phúc Ân",
+          "Blacka"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của ca sĩ Erik là?",
+        "answers": [
+          "Lê Trung Quân",
+          "Lê Trung Thành",
+          "Lê Trung Đức",
+          "Lê Trung Đạt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "The Voice Việt Nam tổ chức lần đầu khi nào?",
+        "answers": [
+          "2009",
+          "2010",
+          "2011",
+          "2012"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc Ca Việt Nam do nhạc sĩ nào sáng tác?",
+        "answers": [
+          "Văn Cao",
+          "Nam Cao",
+          "Trần Đăng Khoa",
+          "Tố Hữu"
+        ],
+        "correct":1
       }
-    ]
+    ],
     "medium": [
       {
-        "question": "",
+        "question": "Bài hát Quốc Ca Việt Nam có tên là?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Quốc Quân Ca",
+          "Tiến Quân Ca",
+          "Toàn Quân Ca",
+          "Quân Dân Ca"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Elton John là nhạc sĩ nước nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Mỹ",
+          "Anh",
+          "Pháp",
+          "Đức"
         ],
-        "correct":
+        "correct":2
+      },
+      {
+        "question": "Đâu là tên bài hát của Sơn Tùng MTP?",
+        "answers": [
+          "Lạc Trôi",
+          "Lạc Lõng",
+          "Vội Vàng",
+          "Thu Cuối"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Quê quán của Sơn Tùng MTP?",
+        "answers": [
+          "Hà Nội",
+          "Nam Định",
+          "Thái Bình",
+          "Thanh Hóa"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Câu hát sau nằm trong bài nào: \n Cơn mưa ngang qua mang em đi xa\nCơn mưa ngang qua khiến em nhạt nhòa ?",
+        "answers": [
+          "Cơn Mưa Ngang Qua",
+          "Em của ngày hôm qua",
+          "Lạc Trôi",
+          "Đập vỡ cây đàn"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Bài hát Đoàn Ca Việt Nam có tên là?",
+        "answers": [
+          "Thanh niên đi theo lời Bác",
+          "Thanh niên vâng theo lời Bác",
+          "Thanh niên nghe theo lời Bác",
+          "Thanh niên làm theo lời Bác"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tên nhạc sĩ/ca sĩ Việt Nam?",
+        "answers": [
+          "Drake",
+          "Madonna",
+          "Justin Bieber",
+          "Wren Evans"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tác phẩm của cố nhạc sĩ Trịnh Công Sơn?",
+        "answers": [
+          "Chào em",
+          "Phôi pha",
+          "Dấu mưa",
+          "Kiếp đỏ đen"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Cố nhạc sĩ Trịnh Công Sơn sinh năm nào?",
+        "answers": [
+          "1939",
+          "1919",
+          "1949",
+          "1929"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Họa Mi tóc nâu là ai?",
+        "answers": [
+          "Lệ Quyên",
+          "Mỹ Tâm",
+          "Thu Phương",
+          "Thùy Chi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Bắp là biệt danh ca sĩ nào?",
+        "answers": [
+          "Ngô Kiến Huy",
+          "Trấn Thành",
+          "Noo Phước Thịnh",
+          "Karik"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Justin Bieber là người nước nào?",
+        "answers": [
+          "Mỹ",
+          "Pháp",
+          "Canada",
+          "Ý"
+        ],
+        "correct":3
+      },
+      {
+        "question": "EDM là tên thể loại nhạc nào?",
+        "answers": [
+          "Đồng quê",
+          "Điện tử",
+          "Rock",
+          "Ballad"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Nhóm nhac BTS có mấy thành viên?",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Nhóm nhac BTS là nhóm nhạc nước nào?",
+        "answers": [
+          "Nhật Bản",
+          "Trung Quốc",
+          "Hàn Quốc",
+          "Việt Nam"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Số thành viên của nhóm nhạc BLACKPINK?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ai là người sáng tác bài Bống bống bang bang?",
+        "answers": [
+          "Nguyễn Phúc Thiện",
+          "Sơn Tùng MTP",
+          "Nguyễn Phúc Ân",
+          "Blacka"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của ca sĩ Erik là?",
+        "answers": [
+          "Lê Trung Quân",
+          "Lê Trung Thành",
+          "Lê Trung Đức",
+          "Lê Trung Đạt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "The Voice Việt Nam tổ chức lần đầu khi nào?",
+        "answers": [
+          "2009",
+          "2010",
+          "2011",
+          "2012"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc Ca Việt Nam do nhạc sĩ nào sáng tác?",
+        "answers": [
+          "Văn Cao",
+          "Nam Cao",
+          "Trần Đăng Khoa",
+          "Tố Hữu"
+        ],
+        "correct":1
       }
     ],
     "hard": [
       {
-        "question": "",
+        "question": "Bài hát Quốc Ca Việt Nam có tên là?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Quốc Quân Ca",
+          "Tiến Quân Ca",
+          "Toàn Quân Ca",
+          "Quân Dân Ca"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Elton John là nhạc sĩ nước nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Mỹ",
+          "Anh",
+          "Pháp",
+          "Đức"
         ],
-        "correct":
+        "correct":2
+      },
+      {
+        "question": "Đâu là tên bài hát của Sơn Tùng MTP?",
+        "answers": [
+          "Lạc Trôi",
+          "Lạc Lõng",
+          "Vội Vàng",
+          "Thu Cuối"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Quê quán của Sơn Tùng MTP?",
+        "answers": [
+          "Hà Nội",
+          "Nam Định",
+          "Thái Bình",
+          "Thanh Hóa"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Câu hát sau nằm trong bài nào: \n Cơn mưa ngang qua mang em đi xa\nCơn mưa ngang qua khiến em nhạt nhòa ?",
+        "answers": [
+          "Cơn Mưa Ngang Qua",
+          "Em của ngày hôm qua",
+          "Lạc Trôi",
+          "Đập vỡ cây đàn"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Bài hát Đoàn Ca Việt Nam có tên là?",
+        "answers": [
+          "Thanh niên đi theo lời Bác",
+          "Thanh niên vâng theo lời Bác",
+          "Thanh niên nghe theo lời Bác",
+          "Thanh niên làm theo lời Bác"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tên nhạc sĩ/ca sĩ Việt Nam?",
+        "answers": [
+          "Drake",
+          "Madonna",
+          "Justin Bieber",
+          "Wren Evans"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đâu là tác phẩm của cố nhạc sĩ Trịnh Công Sơn?",
+        "answers": [
+          "Chào em",
+          "Phôi pha",
+          "Dấu mưa",
+          "Kiếp đỏ đen"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Cố nhạc sĩ Trịnh Công Sơn sinh năm nào?",
+        "answers": [
+          "1939",
+          "1919",
+          "1949",
+          "1929"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Họa Mi tóc nâu là ai?",
+        "answers": [
+          "Lệ Quyên",
+          "Mỹ Tâm",
+          "Thu Phương",
+          "Thùy Chi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Bắp là biệt danh ca sĩ nào?",
+        "answers": [
+          "Ngô Kiến Huy",
+          "Trấn Thành",
+          "Noo Phước Thịnh",
+          "Karik"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Justin Bieber là người nước nào?",
+        "answers": [
+          "Mỹ",
+          "Pháp",
+          "Canada",
+          "Ý"
+        ],
+        "correct":3
+      },
+      {
+        "question": "EDM là tên thể loại nhạc nào?",
+        "answers": [
+          "Đồng quê",
+          "Điện tử",
+          "Rock",
+          "Ballad"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Nhóm nhac BTS có mấy thành viên?",
+        "answers": [
+          "4",
+          "5",
+          "6",
+          "7"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Nhóm nhac BTS là nhóm nhạc nước nào?",
+        "answers": [
+          "Nhật Bản",
+          "Trung Quốc",
+          "Hàn Quốc",
+          "Việt Nam"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Số thành viên của nhóm nhạc BLACKPINK?",
+        "answers": [
+          "2",
+          "3",
+          "4",
+          "5"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ai là người sáng tác bài Bống bống bang bang?",
+        "answers": [
+          "Nguyễn Phúc Thiện",
+          "Sơn Tùng MTP",
+          "Nguyễn Phúc Ân",
+          "Blacka"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của ca sĩ Erik là?",
+        "answers": [
+          "Lê Trung Quân",
+          "Lê Trung Thành",
+          "Lê Trung Đức",
+          "Lê Trung Đạt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "The Voice Việt Nam tổ chức lần đầu khi nào?",
+        "answers": [
+          "2009",
+          "2010",
+          "2011",
+          "2012"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc Ca Việt Nam do nhạc sĩ nào sáng tác?",
+        "answers": [
+          "Văn Cao",
+          "Nam Cao",
+          "Trần Đăng Khoa",
+          "Tố Hữu"
+        ],
+        "correct":1
       }
     ]
   },
   "geography": {
     "easy": [
       {
-        "question": "",
+        "question": "Việt Nam thuộc châu lục nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Bùi"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Đại dương nào lớn nhất thế giới?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Ấn Độ Dương",
+          "Bắc Băng Dương",
+          "Thái Bình Dương",
+          "Đại Tây Dương"
         ],
-        "correct":
+        "correct":3
+      },
+      {
+        "question": "Châu lục nào rộng nhất thế giới?",
+        "answers": [
+          "Châu Âu",
+          "Châu Phi",
+          "Châu Á",
+          "Châu Nam Mỹ"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới tên là gì?",
+        "answers": [
+          "Everest",
+          "Hoàng Liên Sơn",
+          "Phú Sĩ",
+          "Kilimanjaro"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới nằm ở đâu?",
+        "answers": [
+          "Nepal",
+          "Việt Nam",
+          "Canada",
+          "Úc"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thế giới có bao nhiêu kỳ quan cổ đại?",
+        "answers": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Vườn treo Semiramis còn có tên gọi khác là gì?",
+        "answers": [
+          "Vườn treo Babylon",
+          "Vườn treo Giza",
+          "Vườn treo Tân Quang",
+          "Vườn treo Artemis"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đảo Rhodes nằm ở đâu?",
+        "answers": [
+          "Ai Cập",
+          "Tây Ban Nha",
+          "Hy Lạp",
+          "Pháp"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Chùa một cột là địa điểm thuộc tình/thành phố nào?",
+        "answers": [
+          "Hà Nội",
+          "TP Hồ Chí Minh",
+          "Hải Phòng",
+          "Quảng Ngãi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Việt Nam có bao nhiêu tỉnh thành?",
+        "answers": [
+          "55",
+          "56",
+          "57",
+          "58"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia nào có diện tích lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Canada",
+          "Nga"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Sông Nin chạy qua bao nhiêu quốc gia?",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Dòng sông dài nhất Châu Âu là sông nào?",
+        "answers": [
+          "sông Nin",
+          "sông Volga",
+          "sông Hồng",
+          "sông Danube"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Văn Miếu Quốc Tử Giám được xây dựng năm nào?",
+        "answers": [
+          "952",
+          "955",
+          "958",
+          "961"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Argentina thuộc châu lục nào?",
+        "answers": [
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Nam Mỹ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tượng Chúa Cứu thế Cristo Redentor nằm ở đâu?",
+        "answers": [
+          "Brazil",
+          "Ý",
+          "Uruguay",
+          "Argentina"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thủ đô của Malaysia?",
+        "answers": [
+          "Manila",
+          "Jakarta",
+          "Kuala Lumpur",
+          "Bandar Seri Begawan"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Thủ đô của Brazil hiện nay là?",
+        "answers": [
+          "Rio de Janeiro",
+          "Sao Paulo",
+          "Buenos Aires",
+          "Brasília"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Thủ đô của Mỹ?",
+        "answers": [
+          "Washington D.C",
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Úc thuộc châu lục nào?",
+        "answers": [
+          "Châu Đại Dương",
+          "Châu Á",
+          "Châu Úc",
+          "Châu Mỹ"
+        ],
+        "correct":1
       }
-    ]
+    ],
     "medium": [
       {
-        "question": "",
+        "question": "Việt Nam thuộc châu lục nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Bùi"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Đại dương nào lớn nhất thế giới?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Ấn Độ Dương",
+          "Bắc Băng Dương",
+          "Thái Bình Dương",
+          "Đại Tây Dương"
         ],
-        "correct":
+        "correct":3
+      },
+      {
+        "question": "Châu lục nào rộng nhất thế giới?",
+        "answers": [
+          "Châu Âu",
+          "Châu Phi",
+          "Châu Á",
+          "Châu Nam Mỹ"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới tên là gì?",
+        "answers": [
+          "Everest",
+          "Hoàng Liên Sơn",
+          "Phú Sĩ",
+          "Kilimanjaro"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới nằm ở đâu?",
+        "answers": [
+          "Nepal",
+          "Việt Nam",
+          "Canada",
+          "Úc"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thế giới có bao nhiêu kỳ quan cổ đại?",
+        "answers": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Vườn treo Semiramis còn có tên gọi khác là gì?",
+        "answers": [
+          "Vườn treo Babylon",
+          "Vườn treo Giza",
+          "Vườn treo Tân Quang",
+          "Vườn treo Artemis"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đảo Rhodes nằm ở đâu?",
+        "answers": [
+          "Ai Cập",
+          "Tây Ban Nha",
+          "Hy Lạp",
+          "Pháp"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Chùa một cột là địa điểm thuộc tình/thành phố nào?",
+        "answers": [
+          "Hà Nội",
+          "TP Hồ Chí Minh",
+          "Hải Phòng",
+          "Quảng Ngãi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Việt Nam có bao nhiêu tỉnh thành?",
+        "answers": [
+          "55",
+          "56",
+          "57",
+          "58"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia nào có diện tích lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Canada",
+          "Nga"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Sông Nin chạy qua bao nhiêu quốc gia?",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Dòng sông dài nhất Châu Âu là sông nào?",
+        "answers": [
+          "sông Nin",
+          "sông Volga",
+          "sông Hồng",
+          "sông Danube"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Văn Miếu Quốc Tử Giám được xây dựng năm nào?",
+        "answers": [
+          "952",
+          "955",
+          "958",
+          "961"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Argentina thuộc châu lục nào?",
+        "answers": [
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Nam Mỹ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tượng Chúa Cứu thế Cristo Redentor nằm ở đâu?",
+        "answers": [
+          "Brazil",
+          "Ý",
+          "Uruguay",
+          "Argentina"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thủ đô của Malaysia?",
+        "answers": [
+          "Manila",
+          "Jakarta",
+          "Kuala Lumpur",
+          "Bandar Seri Begawan"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Thủ đô của Brazil hiện nay là?",
+        "answers": [
+          "Rio de Janeiro",
+          "Sao Paulo",
+          "Buenos Aires",
+          "Brasília"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Thủ đô của Mỹ?",
+        "answers": [
+          "Washington D.C",
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Úc thuộc châu lục nào?",
+        "answers": [
+          "Châu Đại Dương",
+          "Châu Á",
+          "Châu Úc",
+          "Châu Mỹ"
+        ],
+        "correct":1
       }
     ],
     "hard": [
       {
-        "question": "",
+        "question": "Việt Nam thuộc châu lục nào?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Bùi"
         ],
-        "correct":
+        "correct":2
       },
       {
-        "question": "",
+        "question": "Đại dương nào lớn nhất thế giới?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Ấn Độ Dương",
+          "Bắc Băng Dương",
+          "Thái Bình Dương",
+          "Đại Tây Dương"
         ],
-        "correct":
+        "correct":3
+      },
+      {
+        "question": "Châu lục nào rộng nhất thế giới?",
+        "answers": [
+          "Châu Âu",
+          "Châu Phi",
+          "Châu Á",
+          "Châu Nam Mỹ"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới tên là gì?",
+        "answers": [
+          "Everest",
+          "Hoàng Liên Sơn",
+          "Phú Sĩ",
+          "Kilimanjaro"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Ngọn núi cao nhất thế giới nằm ở đâu?",
+        "answers": [
+          "Nepal",
+          "Việt Nam",
+          "Canada",
+          "Úc"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thế giới có bao nhiêu kỳ quan cổ đại?",
+        "answers": [
+          "6",
+          "7",
+          "8",
+          "9"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Vườn treo Semiramis còn có tên gọi khác là gì?",
+        "answers": [
+          "Vườn treo Babylon",
+          "Vườn treo Giza",
+          "Vườn treo Tân Quang",
+          "Vườn treo Artemis"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đảo Rhodes nằm ở đâu?",
+        "answers": [
+          "Ai Cập",
+          "Tây Ban Nha",
+          "Hy Lạp",
+          "Pháp"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Chùa một cột là địa điểm thuộc tình/thành phố nào?",
+        "answers": [
+          "Hà Nội",
+          "TP Hồ Chí Minh",
+          "Hải Phòng",
+          "Quảng Ngãi"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Việt Nam có bao nhiêu tỉnh thành?",
+        "answers": [
+          "55",
+          "56",
+          "57",
+          "58"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia nào có diện tích lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Canada",
+          "Nga"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Sông Nin chạy qua bao nhiêu quốc gia?",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Dòng sông dài nhất Châu Âu là sông nào?",
+        "answers": [
+          "sông Nin",
+          "sông Volga",
+          "sông Hồng",
+          "sông Danube"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Văn Miếu Quốc Tử Giám được xây dựng năm nào?",
+        "answers": [
+          "952",
+          "955",
+          "958",
+          "961"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Argentina thuộc châu lục nào?",
+        "answers": [
+          "Châu Âu",
+          "Châu Á",
+          "Châu Phi",
+          "Châu Nam Mỹ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tượng Chúa Cứu thế Cristo Redentor nằm ở đâu?",
+        "answers": [
+          "Brazil",
+          "Ý",
+          "Uruguay",
+          "Argentina"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thủ đô của Malaysia?",
+        "answers": [
+          "Manila",
+          "Jakarta",
+          "Kuala Lumpur",
+          "Bandar Seri Begawan"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Thủ đô của Brazil hiện nay là?",
+        "answers": [
+          "Rio de Janeiro",
+          "Sao Paulo",
+          "Buenos Aires",
+          "Brasília"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Thủ đô của Mỹ?",
+        "answers": [
+          "Washington D.C",
+          "New York",
+          "Los Angeles",
+          "Chicago"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Úc thuộc châu lục nào?",
+        "answers": [
+          "Châu Đại Dương",
+          "Châu Á",
+          "Châu Úc",
+          "Châu Mỹ"
+        ],
+        "correct":1
       }
     ]
   },
   "economics": {
     "easy": [
       {
-        "question": "",
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
         ],
-        "correct":
+        "correct":1
       },
       {
-        "question": "",
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
         ],
-        "correct":
-      }
-    ]
-    "medium": [
-      {
-        "question": "",
-        "answers": [
-          "",
-          "",
-          "",
-          ""
-        ],
-        "correct":
+        "correct":1
       },
       {
-        "question": "",
+        "question": "OECD là tổ chức gì?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "Tổ chức Hợp tác và phát triển kinh tế",
+          "Tổ chức Hợp tác và động viên kinh tế",
+          "Tổ chức Làm ăn và giao dịch kinh tế",
+          "Tổ chức kinh tế châu Á"
         ],
-        "correct":
+        "correct":1
+      },
+      {
+        "question": "Tên gọi của Ngân hàng Thế giới?",
+        "answers": [
+          "National Bank",
+          "Universal Bank",
+          "International Bank",
+          "World Bank"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Trung Quốc là gì?",
+        "answers": [
+          "VND",
+          "RMB",
+          "RUB",
+          "USD"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới có tên gọi tiếng Anh là gì?",
+        "answers": [
+          "World Transaction Organization",
+          "World Economic Organization",
+          "World Trade Organization",
+          "World Money Organization"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới thành lập năm nào?",
+        "answers": [
+          "1993",
+          "1995",
+          "1996",
+          "2000"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Trong năm 2021, Việt Nam đứng thứ mấy về GDP tại Đông Nam Á?",
+        "answers": [
+          "1",
+          "3",
+          "5",
+          "7"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Quốc gia sản xuất Cafe lớn nhất thế giới?",
+        "answers": [
+          "Việt Nam",
+          "Mexico",
+          "Colombia",
+          "Brazil"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia sản xuất GẠO lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Thái Lan",
+          "Việt Nam"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tỉ phú số 1 Việt Nam hiện tại là ai?",
+        "answers": [
+          "Hồ Hùng Anh",
+          "Trần Bá Dương",
+          "Nguyễn Thị Phương Thảo",
+          "Phạm Nhật Vượng"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Ấn ĐỘ là gì?",
+        "answers": [
+          "VND",
+          "CAD",
+          "INR",
+          "RUB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Indonesia là gì?",
+        "answers": [
+          "VND",
+          "ISD",
+          "IDR",
+          "IRB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Hàn Quốc là gì?",
+        "answers": [
+          "KRW",
+          "KOW",
+          "WON",
+          "KWO"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đơn vị tiền tệ của Nhật Bản là gì?",
+        "answers": [
+          "Yên",
+          "Nhân Dân Tệ",
+          "CAD",
+          "Baht"
+        ],
+        "correct":1
       }
     ],
-    "hard": [
+    "easy": [
       {
-        "question": "",
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
         ],
-        "correct":
+        "correct":1
       },
       {
-        "question": "",
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
         ],
-        "correct":
+        "correct":1
+      },
+      {
+        "question": "OECD là tổ chức gì?",
+        "answers": [
+          "Tổ chức Hợp tác và phát triển kinh tế",
+          "Tổ chức Hợp tác và động viên kinh tế",
+          "Tổ chức Làm ăn và giao dịch kinh tế",
+          "Tổ chức kinh tế châu Á"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên gọi của Ngân hàng Thế giới?",
+        "answers": [
+          "National Bank",
+          "Universal Bank",
+          "International Bank",
+          "World Bank"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Trung Quốc là gì?",
+        "answers": [
+          "VND",
+          "RMB",
+          "RUB",
+          "USD"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới có tên gọi tiếng Anh là gì?",
+        "answers": [
+          "World Transaction Organization",
+          "World Economic Organization",
+          "World Trade Organization",
+          "World Money Organization"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới thành lập năm nào?",
+        "answers": [
+          "1993",
+          "1995",
+          "1996",
+          "2000"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Trong năm 2021, Việt Nam đứng thứ mấy về GDP tại Đông Nam Á?",
+        "answers": [
+          "1",
+          "3",
+          "5",
+          "7"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Quốc gia sản xuất Cafe lớn nhất thế giới?",
+        "answers": [
+          "Việt Nam",
+          "Mexico",
+          "Colombia",
+          "Brazil"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia sản xuất GẠO lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Thái Lan",
+          "Việt Nam"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tỉ phú số 1 Việt Nam hiện tại là ai?",
+        "answers": [
+          "Hồ Hùng Anh",
+          "Trần Bá Dương",
+          "Nguyễn Thị Phương Thảo",
+          "Phạm Nhật Vượng"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Ấn ĐỘ là gì?",
+        "answers": [
+          "VND",
+          "CAD",
+          "INR",
+          "RUB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Indonesia là gì?",
+        "answers": [
+          "VND",
+          "ISD",
+          "IDR",
+          "IRB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Hàn Quốc là gì?",
+        "answers": [
+          "KRW",
+          "KOW",
+          "WON",
+          "KWO"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đơn vị tiền tệ của Nhật Bản là gì?",
+        "answers": [
+          "Yên",
+          "Nhân Dân Tệ",
+          "CAD",
+          "Baht"
+        ],
+        "correct":1
+      }
+    ],
+    "easy": [
+      {
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
+        "answers": [
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đơn vị tiền tệ của Việt Nam là gì?",
+        "answers": [
+          "VND",
+          "CNY",
+          "RUB",
+          "USD"
+        ],
+        "correct":1
+      },
+      {
+        "question": "OECD là tổ chức gì?",
+        "answers": [
+          "Tổ chức Hợp tác và phát triển kinh tế",
+          "Tổ chức Hợp tác và động viên kinh tế",
+          "Tổ chức Làm ăn và giao dịch kinh tế",
+          "Tổ chức kinh tế châu Á"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên gọi của Ngân hàng Thế giới?",
+        "answers": [
+          "National Bank",
+          "Universal Bank",
+          "International Bank",
+          "World Bank"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Trung Quốc là gì?",
+        "answers": [
+          "VND",
+          "RMB",
+          "RUB",
+          "USD"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới có tên gọi tiếng Anh là gì?",
+        "answers": [
+          "World Transaction Organization",
+          "World Economic Organization",
+          "World Trade Organization",
+          "World Money Organization"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tổ chức Thương mại Thế giới thành lập năm nào?",
+        "answers": [
+          "1993",
+          "1995",
+          "1996",
+          "2000"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Trong năm 2021, Việt Nam đứng thứ mấy về GDP tại Đông Nam Á?",
+        "answers": [
+          "1",
+          "3",
+          "5",
+          "7"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Quốc gia sản xuất Cafe lớn nhất thế giới?",
+        "answers": [
+          "Việt Nam",
+          "Mexico",
+          "Colombia",
+          "Brazil"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Quốc gia sản xuất GẠO lớn nhất thế giới?",
+        "answers": [
+          "Ấn Độ",
+          "Trung Quốc",
+          "Thái Lan",
+          "Việt Nam"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tỉ phú số 1 Việt Nam hiện tại là ai?",
+        "answers": [
+          "Hồ Hùng Anh",
+          "Trần Bá Dương",
+          "Nguyễn Thị Phương Thảo",
+          "Phạm Nhật Vượng"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Đơn vị tiền tệ của Ấn ĐỘ là gì?",
+        "answers": [
+          "VND",
+          "CAD",
+          "INR",
+          "RUB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Indonesia là gì?",
+        "answers": [
+          "VND",
+          "ISD",
+          "IDR",
+          "IRB"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Đơn vị tiền tệ của Hàn Quốc là gì?",
+        "answers": [
+          "KRW",
+          "KOW",
+          "WON",
+          "KWO"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Đơn vị tiền tệ của Nhật Bản là gì?",
+        "answers": [
+          "Yên",
+          "Nhân Dân Tệ",
+          "CAD",
+          "Baht"
+        ],
+        "correct":1
       }
     ]
   }
