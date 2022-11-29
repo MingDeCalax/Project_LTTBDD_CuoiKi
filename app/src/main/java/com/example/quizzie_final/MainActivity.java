@@ -25,9 +25,9 @@ import org.json.JSONException;
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding binding;
     private FragmentManager fragmentManager = getSupportFragmentManager();
-    private Fragment currentFrag ;
+    private Fragment currentFrag = new TopicsFragment();
     // remember this
-    private Fragment mainFrag;
+    private Fragment mainFrag = new TopicsFragment();
     private HistoryFragment historyFrag = new HistoryFragment();
     private BottomNavigationView bottomNavi;
     @Override
@@ -36,19 +36,21 @@ public class MainActivity extends AppCompatActivity {
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
+        replaceFragment(currentFrag);
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
         bottomNavi = findViewById(R.id.bottomNavigationView);
         NavigationBarView.OnItemSelectedListener naviListener  = item -> {
             switch (item.getItemId()) {
                 case R.id.game:
                     if (currentFrag != mainFrag){
-//                        replaceFragment(mainFrag);
+                        replaceFragment(mainFrag);
                     }
                     return true;
                 case R.id.history:
                     if (currentFrag != historyFrag) {
-//                        replaceFragment(historyFrag);
+                        replaceFragment(historyFrag);
                     }
                     return true;
             }
@@ -99,19 +101,19 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void submitAnswer(View view){
-         if(QuestionFragment.isCorrectAnswer(view.getTag().toString())){
-             QuestionFragment.currentQuestionCorrects+=1;
-             HistoryFragment.increaseCount();
-         };
-         //show answer
-         // show next button
+        if(QuestionFragment.isCorrectAnswer(view.getTag().toString())){
+            QuestionFragment.currentQuestionCorrects+=1;
+            HistoryFragment.increaseCount();
+        };
+        //show answer
+        // show next button
     }
     public void terminateQuestion(View view) throws JSONException {
         if (QuestionFragment.currentQuestionCount == 5){
             // show result & play again menu
         }
         QuestionFragment.loadNextQuestion();
-            //create and show new fragment for new question
+        //create and show new fragment for new question
     }
 
     public void chooseTopic(View view) throws JSONException{

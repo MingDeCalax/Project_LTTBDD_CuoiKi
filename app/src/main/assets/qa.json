@@ -2,72 +2,1202 @@
   "math": {
     "easy": [
       {
-        "question": "",
+        "question": "1 + 1 = ?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "0",
+          "1",
+          "2",
+          "3"
         ],
-        "correct":
+        "correct":3
       },
       {
-        "question": "",
+        "question": "10 + 20 = ?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "30",
+          "90",
+          "10",
+          "40"
         ],
-        "correct":
+        "correct":1
+      },
+      {
+        "question": "15 + 9 = ?",
+        "answers": [
+          "159",
+          "24",
+          "23",
+          "26"
+        ],
+        "correct":2
+      },
+      {
+        "question": "45 - 32 = ?",
+        "answers": [
+          "12",
+          "11",
+          "14",
+          "13"
+        ],
+        "correct":4
+      },
+      {
+        "question": "14 - 33 = ?",
+        "answers": [
+          "12",
+          "11",
+          "14",
+          "13"
+        ],
+        "correct":4
+      },
+      {
+        "question": "32 - 54 = ?",
+        "answers": [
+          "22",
+          "-21",
+          "-22",
+          "21"
+        ],
+        "correct":3
+      },
+      {
+        "question": "11 - 9 = ?",
+        "answers": [
+          "1",
+          "2",
+          "3",
+          "4"
+        ],
+        "correct":2
+      },
+      {
+        "question": "35 + 21 = ?",
+        "answers": [
+          "53",
+          "54",
+          "55",
+          "56"
+        ],
+        "correct":4
+      },
+      {
+        "question": "X + 1 = 15; X = ?",
+        "answers": [
+          "X = 10",
+          "X = 12",
+          "X = 14",
+          "X = 16"
+        ],
+        "correct":3
+      },
+      {
+        "question": "32 - 54 = ?",
+        "answers": [
+          "22",
+          "-21",
+          "-22",
+          "21"
+        ],
+        "correct":3
+      },
+      {
+        "question": "2 + 3 = ?",
+        "answers": [
+          "1",
+          "3",
+          "5",
+          "4"
+        ],
+        "correct":3
+      },
+      {
+        "question": "12 + 22 = ?",
+        "answers": [
+          "34",
+          "94",
+          "14",
+          "440"
+        ],
+        "correct":1
+      },
+      {
+        "question": "25 + 9 = ?",
+        "answers": [
+          "35",
+          "34",
+          "33",
+          "36"
+        ],
+        "correct":2
+      },
+      {
+        "question": "35 - 32 = ?",
+        "answers": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct":4
+      },
+      {
+        "question": "54 - 33 = ?",
+        "answers": [
+          "22",
+          "21",
+          "24",
+          "23"
+        ],
+        "correct":2
+      },
+      {
+        "question": "46 - 68 = ?",
+        "answers": [
+          "22",
+          "-21",
+          "-22",
+          "21"
+        ],
+        "correct":3
+      },
+      {
+        "question": "31 - 9 = ?",
+        "answers": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "correct":2
+      },
+      {
+        "question": "35 + 51 = ?",
+        "answers": [
+          "83",
+          "84",
+          "85",
+          "86"
+        ],
+        "correct":4
+      },
+      {
+        "question": "X - 10 = 15; X = ?",
+        "answers": [
+          "X = 35",
+          "X = 5",
+          "X = 25",
+          "X = 24"
+        ],
+        "correct":3
+      },
+      {
+        "question": "X - 24 = 52; X = ?",
+        "answers": [
+          "X = 75",
+          "X = 65",
+          "X = 55",
+          "X = 76"
+        ],
+        "correct":4
+      },
+      {
+        "question": "8 + 2 = ?",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":3
+      },
+      {
+        "question": "72 + 22 = ?",
+        "answers": [
+          "34",
+          "94",
+          "14",
+          "440"
+        ],
+        "correct":2
+      },
+      {
+        "question": "24 + 9 = ?",
+        "answers": [
+          "35",
+          "34",
+          "33",
+          "36"
+        ],
+        "correct":3
+      },
+      {
+        "question": "35 - 34 = ?",
+        "answers": [
+          "2",
+          "1",
+          "4",
+          "3"
+        ],
+        "correct":2
+      },
+      {
+        "question": "54 - 32 = ?",
+        "answers": [
+          "22",
+          "21",
+          "24",
+          "23"
+        ],
+        "correct":1
+      },
+      {
+        "question": "46 - 67 = ?",
+        "answers": [
+          "22",
+          "-21",
+          "-22",
+          "21"
+        ],
+        "correct":2
+      },
+      {
+        "question": "31 - 10 = ?",
+        "answers": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "correct":1
+      },
+      {
+        "question": "35 + 31 = ?",
+        "answers": [
+          "63",
+          "64",
+          "65",
+          "66"
+        ],
+        "correct":4
+      },
+      {
+
+
+        "question": "X + 10 = 15; X = ?",
+        "answers": [
+          "X = 35",
+          "X = 5",
+          "X = 25",
+          "X = 24"
+        ],
+        "correct":2
+      },
+      {
+        "question": "33 + 31 = ?",
+        "answers": [
+          "63",
+          "64",
+          "65",
+          "66"
+        ],
+        "correct":2
+      },
+      {
+        "question": "46 - 22 = ?",
+        "answers": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "correct":4
+      },
+      {
+        "question": "41 + 22 = ?",
+        "answers": [
+          "63",
+          "64",
+          "65",
+          "66"
+        ],
+        "correct":1
       }
-    ]
+    ],
     "medium": [
       {
-        "question": "",
+        "question": "What is the result of A when 2A x 10 = 100",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "5",
+          "4",
+          "3",
+          "2"
         ],
-        "correct":
+        "correct":1
       },
       {
-        "question": "",
+        "question": "11 x 22 = ",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "120",
+          "220",
+          "242",
+          "221"
         ],
-        "correct":
+        "correct":3
+      },
+      {
+        "question": "What is the result of A when 3A x 5 = 135",
+        "answers": [
+          "1",
+          "3",
+          "7",
+          "9"
+        ],
+        "correct":4
+      },
+      {
+        "question": "23 x 31 = ",
+        "answers": [
+          "631",
+          "613",
+          "713",
+          "731"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What is the result of A when 9A x 3 = 297",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":4
+      },
+      {
+        "question": "35 x 27 = ",
+        "answers": [
+          "945",
+          "935",
+          "955",
+          "975"
+        ],
+        "correct":1
+      },
+      {
+        "question": "What is the result of A when 4A + 15 = 132",
+        "answers": [
+          "67",
+          "66",
+          "68",
+          "69"
+        ],
+        "correct":1
+      },
+      {
+        "question": "57 x 13 = ",
+        "answers": [
+          "738",
+          "739",
+          "740",
+          "741"
+        ],
+        "correct":4
+      },
+      {
+        "question": "What is the result of A when 5A - 18 = 157",
+        "answers": [
+          "35",
+          "34",
+          "33",
+          "32"
+        ],
+        "correct":1
+      },
+      {
+        "question": "19 x 23 = ",
+        "answers": [
+          "436",
+          "437",
+          "438",
+          "439"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What is the result of A when 9A - 132 = 237",
+        "answers": [
+          "41",
+          "42",
+          "43",
+          "44"
+        ],
+        "correct":1
+      },
+      {
+        "question": "346 + 649 = ",
+        "answers": [
+          "995",
+          "994",
+          "992",
+          "991"
+        ],
+        "correct":1
+      },
+      {
+        "question": "What is the result of A when 3A x 5 = 105",
+        "answers": [
+          "1",
+          "3",
+          "7",
+          "9"
+        ],
+        "correct":1
+      },
+      {
+        "question": "17 x 43 = ",
+        "answers": [
+          "631",
+          "613",
+          "713",
+          "731"
+        ],
+        "correct":4
+      },
+      {
+        "question": "What is the result of A when 9A x 3 = 243",
+        "answers": [
+          "8",
+          "9",
+          "10",
+          "11"
+        ],
+        "correct":2
+      },
+      {
+        "question": "5 x 191 = ",
+        "answers": [
+          "945",
+          "935",
+          "955",
+          "975"
+        ],
+        "correct":3
+      },
+      {
+        "question": "What is the result of A when 4A + 15 = 291",
+        "answers": [
+          "67",
+          "66",
+          "68",
+          "69"
+        ],
+        "correct":4
+      },
+      {
+        "question": "41 x 18 = ",
+        "answers": [
+          "738",
+          "739",
+          "740",
+          "741"
+        ],
+        "correct":1
+      },
+      {
+        "question": "What is the result of A when 5A - 18 = 152",
+        "answers": [
+          "35",
+          "34",
+          "33",
+          "32"
+        ],
+        "correct":2
+      },
+      {
+        "question": "6 x 73 = ",
+        "answers": [
+          "436",
+          "437",
+          "438",
+          "439"
+        ],
+        "correct":3
+      },
+      {
+        "question": "What is the result of A when 9A - 132 = 264",
+        "answers": [
+          "41",
+          "42",
+          "43",
+          "44"
+        ],
+        "correct":4
       }
     ],
     "hard": [
       {
-        "question": "",
+        "question": "What's the result of A: /n 9A x 2 - 139 = 77",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "70",
+          "73",
+          "75",
+          "77"
         ],
-        "correct":
+        "correct":4
       },
       {
-        "question": "",
+        "question": "320 x 943 = ?",
         "answers": [
-          "",
-          "",
-          "",
-          ""
+          "301760",
+          "310760",
+          "301670",
+          "310670"
         ],
-        "correct":
+        "correct":1
+      },
+      {
+        "question": "What's the result of A: /n 9A x 2 - 139 = 77",
+        "answers": [
+          "70",
+          "73",
+          "75",
+          "77"
+        ],
+        "correct":4
+      },
+      {
+        "question": "320 x 943 = ?",
+        "answers": [
+          "301760",
+          "310760",
+          "301670",
+          "310670"
+        ],
+        "correct":1
+      },
+      {
+        "question": "What's the result of A: /n 9A x 5 - 139 = 2561",
+        "answers": [
+          "59",
+          "60",
+          "61",
+          "62"
+        ],
+        "correct":2
+      },
+      {
+        "question": "320 x 351 = ?",
+        "answers": [
+          "112340",
+          "112320",
+          "114320",
+          "113620"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What's the result of A: /n 7A x 3 - 139 = 1394",
+        "answers": [
+          "70",
+          "73",
+          "75",
+          "77"
+        ],
+        "correct":2
+      },
+      {
+        "question": "230 x 301 = ?",
+        "answers": [
+          "69230",
+          "69231",
+          "69320",
+          "69321"
+        ],
+        "correct":1
+      },
+      {
+        "question": "What's the result of A: /n 3A x 2 - 139 = 647",
+        "answers": [
+          "130",
+          "131",
+          "132",
+          "133"
+        ],
+        "correct":2
+      },
+      {
+        "question": "197 x 351 = ?",
+        "answers": [
+          "69145",
+          "69146",
+          "69147",
+          "69148"
+        ],
+        "correct":3
+      },
+      {
+        "question": "What's the result of A: /n 8A x 3 - 139 = 1229",
+        "answers": [
+          "57",
+          "56",
+          "55",
+          "54"
+        ],
+        "correct":1
+      },
+      {
+        "question": "211 x 437 = ?",
+        "answers": [
+          "92107",
+          "82307",
+          "92207",
+          "82207"
+        ],
+        "correct":3
+      },
+      {
+        "question": "What's the result of A: /n 7A x 6 - 232 = 566",
+        "answers": [
+          "17",
+          "18",
+          "19",
+          "29"
+        ],
+        "correct":3
+      },
+      {
+        "question": "321 x 942 = ?",
+        "answers": [
+          "304260",
+          "302382",
+          "301670",
+          "300670"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What's the result of A: /n 5A x 4 + 139 = 539",
+        "answers": [
+          "21",
+          "22",
+          "23",
+          "24"
+        ],
+        "correct":1
+      },
+      {
+        "question": "241 x 423 = ?",
+        "answers": [
+          "110760",
+          "101943",
+          "101670",
+          "110670"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What's the result of A: /n 7A x 5 - 1239 = -84",
+        "answers": [
+          "30",
+          "31",
+          "32",
+          "33"
+        ],
+        "correct":4
+      },
+      {
+        "question": "123 x 527 = ?",
+        "answers": [
+          "63760",
+          "64821",
+          "65160",
+          "66070"
+        ],
+        "correct":2
+      },
+      {
+        "question": "What's the result of A: /n 8A x 12 - 1239 = 681",
+        "answers": [
+          "20",
+          "21",
+          "22",
+          "23"
+        ],
+        "correct":1
+      },
+      {
+        "question": "653 x 164 = ?",
+        "answers": [
+          "107360",
+          "117360",
+          "107670",
+          "107092"
+        ],
+        "correct":1
       }
     ]
   },
   "literature": {
+    "easy": [
+      {
+        "question": "Tác giả của Truyện Kiều là ai?",
+        "answers": [
+          "Nguyễn Du",
+          "Nguyễn Trãi",
+          "Nguyễn Phong",
+          "Nguyễn Minh"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của nhà thơ Huy Cận?",
+        "answers": [
+          "Cù Huy Cận",
+          "Trần Huy Cận",
+          "Lê Huy Cận",
+          "Ngô Huy Cận"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Lê Quyết Thắng là bút danh của ai?",
+        "answers": [
+          "Lê Anh Xuân",
+          "Cao Bá Quát",
+          "Chủ tịch Hồ Chí Minh",
+          "Huy Tưởng"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Mùa Xuân Nho Nhỏ do ai sáng tác?",
+        "answers": [
+          "Quang Tâm",
+          "Quang Hải",
+          "Thanh Tâm",
+          "Thanh Hải"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tác phẩm Lam Sơn thực lục do ai sáng tác",
+        "answers": [
+          "Nguyễn Khuyến",
+          "Nguyễn Trãi",
+          "Nguyễn Đình Chiểu",
+          "Nguyễn Duy"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Thể thơ của Truyện Kiều là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn bát cú",
+          "Thất ngôn tứ tuyệt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tên thật của nhà thơ Hàn Mặc Tử là gì?",
+        "answers": [
+          "Nguyễn Trọng Trí",
+          "Trần Trọng Đức",
+          "Lê Đức Trí",
+          "Ngô Trọng Đức"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Phong Trần là bút danh của ai?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Bài thơ về tiểu đội xe không kính được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Vội Vàng do ai sáng tác?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thể thơ của bài Tây Tiến là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn",
+          "Ngũ ngôn"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tên khai sinh của nhà thơ Thế Lữ là gì?",
+        "answers": [
+          "Nguyễn Trọng Thứ",
+          "Nguyễn Lễ Thứ",
+          "Nguyễn Thứ Lễ",
+          "Nguyễn Đình Lễ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tố Hữu là bút danh của ai?",
+        "answers": [
+          "Nguyễn Minh Thành",
+          "Nguyễn Kim Thành",
+          "Nguyễn Sinh Thành",
+          "Nguyễn Vinh Thành"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tác phẩm Sóng của nhà thơ Xuân Quỳnh được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tác phẩm Điêu Tàn do ai sáng tác?",
+        "answers": [
+          "Nguyễn Dữ",
+          "Chê Lan Viên",
+          "Hàn Mặc Tử",
+          "Hồ Quỳnh Hương"
+        ],
+        "correct":2
+      }
+    ],
+    "medium": [
+      {
+        "question": "Tác giả của Truyện Kiều là ai?",
+        "answers": [
+          "Nguyễn Du",
+          "Nguyễn Trãi",
+          "Nguyễn Phong",
+          "Nguyễn Minh"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của nhà thơ Huy Cận?",
+        "answers": [
+          "Cù Huy Cận",
+          "Trần Huy Cận",
+          "Lê Huy Cận",
+          "Ngô Huy Cận"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Lê Quyết Thắng là bút danh của ai?",
+        "answers": [
+          "Lê Anh Xuân",
+          "Cao Bá Quát",
+          "Chủ tịch Hồ Chí Minh",
+          "Huy Tưởng"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Mùa Xuân Nho Nhỏ do ai sáng tác?",
+        "answers": [
+          "Quang Tâm",
+          "Quang Hải",
+          "Thanh Tâm",
+          "Thanh Hải"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tác phẩm Lam Sơn thực lục do ai sáng tác",
+        "answers": [
+          "Nguyễn Khuyến",
+          "Nguyễn Trãi",
+          "Nguyễn Đình Chiểu",
+          "Nguyễn Duy"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Thể thơ của Truyện Kiều là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn bát cú",
+          "Thất ngôn tứ tuyệt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tên thật của nhà thơ Hàn Mặc Tử là gì?",
+        "answers": [
+          "Nguyễn Trọng Trí",
+          "Trần Trọng Đức",
+          "Lê Đức Trí",
+          "Ngô Trọng Đức"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Phong Trần là bút danh của ai?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Bài thơ về tiểu đội xe không kính được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Vội Vàng do ai sáng tác?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thể thơ của bài Tây Tiến là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn",
+          "Ngũ ngôn"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tên khai sinh của nhà thơ Thế Lữ là gì?",
+        "answers": [
+          "Nguyễn Trọng Thứ",
+          "Nguyễn Lễ Thứ",
+          "Nguyễn Thứ Lễ",
+          "Nguyễn Đình Lễ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tố Hữu là bút danh của ai?",
+        "answers": [
+          "Nguyễn Minh Thành",
+          "Nguyễn Kim Thành",
+          "Nguyễn Sinh Thành",
+          "Nguyễn Vinh Thành"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tác phẩm Sóng của nhà thơ Xuân Quỳnh được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tác phẩm Điêu Tàn do ai sáng tác?",
+        "answers": [
+          "Nguyễn Dữ",
+          "Chê Lan Viên",
+          "Hàn Mặc Tử",
+          "Hồ Quỳnh Hương"
+        ],
+        "correct":2
+      }
+      ],
+    "hard": [
+      {
+        "question": "Tác giả của Truyện Kiều là ai?",
+        "answers": [
+          "Nguyễn Du",
+          "Nguyễn Trãi",
+          "Nguyễn Phong",
+          "Nguyễn Minh"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của nhà thơ Huy Cận?",
+        "answers": [
+          "Cù Huy Cận",
+          "Trần Huy Cận",
+          "Lê Huy Cận",
+          "Ngô Huy Cận"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Lê Quyết Thắng là bút danh của ai?",
+        "answers": [
+          "Lê Anh Xuân",
+          "Cao Bá Quát",
+          "Chủ tịch Hồ Chí Minh",
+          "Huy Tưởng"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Mùa Xuân Nho Nhỏ do ai sáng tác?",
+        "answers": [
+          "Quang Tâm",
+          "Quang Hải",
+          "Thanh Tâm",
+          "Thanh Hải"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tác phẩm Lam Sơn thực lục do ai sáng tác",
+        "answers": [
+          "Nguyễn Khuyến",
+          "Nguyễn Trãi",
+          "Nguyễn Đình Chiểu",
+          "Nguyễn Duy"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Thể thơ của Truyện Kiều là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn bát cú",
+          "Thất ngôn tứ tuyệt"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tên thật của nhà thơ Hàn Mặc Tử là gì?",
+        "answers": [
+          "Nguyễn Trọng Trí",
+          "Trần Trọng Đức",
+          "Lê Đức Trí",
+          "Ngô Trọng Đức"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Phong Trần là bút danh của ai?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Bài thơ về tiểu đội xe không kính được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tác phẩm Vội Vàng do ai sáng tác?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Thể thơ của bài Tây Tiến là gì?",
+        "answers": [
+          "Tự do",
+          "Lục bát",
+          "Thất ngôn",
+          "Ngũ ngôn"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Tên khai sinh của nhà thơ Thế Lữ là gì?",
+        "answers": [
+          "Nguyễn Trọng Thứ",
+          "Nguyễn Lễ Thứ",
+          "Nguyễn Thứ Lễ",
+          "Nguyễn Đình Lễ"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tố Hữu là bút danh của ai?",
+        "answers": [
+          "Nguyễn Minh Thành",
+          "Nguyễn Kim Thành",
+          "Nguyễn Sinh Thành",
+          "Nguyễn Vinh Thành"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tác phẩm Sóng của nhà thơ Xuân Quỳnh được sáng tác năm nào?",
+        "answers": [
+          "1967",
+          "1968",
+          "1969",
+          "1970"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tác phẩm Điêu Tàn do ai sáng tác?",
+        "answers": [
+          "Nguyễn Dữ",
+          "Chê Lan Viên",
+          "Hàn Mặc Tử",
+          "Hồ Quỳnh Hương"
+        ],
+        "correct":2
+      }
+    ]
+  },
+  "sports": {
     "easy": [
       {
         "question": "",
@@ -135,7 +1265,75 @@
       }
     ]
   },
-  "sports": {
+  "music": {
+    "easy": [
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      },
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      }
+    ]
+    "medium": [
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      },
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      }
+    ],
+    "hard": [
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      },
+      {
+        "question": "",
+        "answers": [
+          "",
+          "",
+          "",
+          ""
+        ],
+        "correct":
+      }
+    ]
+  },
+  "geography": {
     "easy": [
       {
         "question": "",

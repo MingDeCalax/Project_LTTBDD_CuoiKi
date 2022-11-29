@@ -1,11 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android">
-
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
     <item
-        android:id="@+id/gop_y"
-        android:title="Góp ý"
-        />
-    <item
-        android:id="@+id/info"
-        android:title="Thông tin trò chơi"></item>
+        app:showAsAction="always"
+        android:title=""
+        android:icon="@drawable/ic_baseline_more_vert_24">
+        <menu>
+            <item
+                android:id="@+id/gop_y"
+                android:icon="@drawable/ic_baseline_contact_mail_24"
+                android:title="Contact Us"
+                app:showAsAction="never"
+                />
+            <item
+                android:id="@+id/info"
+                android:icon="@drawable/ic_baseline_info_24"
+                android:title="Dev Profile"
+                app:showAsAction="never"
+                />
+        </menu>
+    </item>
 </menu>
