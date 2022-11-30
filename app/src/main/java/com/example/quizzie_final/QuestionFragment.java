@@ -10,11 +10,13 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Button;
+import android.widget.ProgressBar;
 import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
+import org.w3c.dom.Text;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -57,7 +59,7 @@ public class QuestionFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_question, container, false);
-
+        ProgressBar progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
         TextView answerA = (TextView) view.findViewById(R.id.a_button);
         TextView answerB = (TextView) view.findViewById(R.id.b_button);
         TextView answerC = (TextView) view.findViewById(R.id.c_button);
@@ -66,6 +68,7 @@ public class QuestionFragment extends Fragment {
         answerB.setText("B. "  + answers[1]);
         answerC.setText("C. "  + answers[2]);
         answerD.setText("D. "  + answers[3]);
+        progressBar.setProgress(currentQuestionCount);
         TextView ques = (TextView) view.findViewById(R.id.question_title);
         ques.setText("Câu hỏi " + currentQuestionCount + ":\n" + currentQuestion);
         int id[] = {R.id.a_button, R.id.b_button, R.id.c_button, R.id.d_button};

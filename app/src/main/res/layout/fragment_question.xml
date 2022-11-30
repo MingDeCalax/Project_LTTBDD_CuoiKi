@@ -25,6 +25,7 @@
         android:layout_height="230dp"
         app:layout_constraintTop_toTopOf="parent"
         android:id="@+id/question">
+
         <ImageView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -136,4 +137,18 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/question_scroll"
         android:onClick="terminateQuestion"/>
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:progress="1"
+        android:progressTint="@color/white"
+
+        android:outlineAmbientShadowColor="@color/colorChat"
+        android:max="5"
+        app:layout_constraintBottom_toTopOf="@+id/question"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="0dp" />
 </androidx.constraintlayout.widget.ConstraintLayout>
