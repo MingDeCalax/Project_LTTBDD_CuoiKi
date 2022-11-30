@@ -1,54 +1,52 @@
-<?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
+<androidx.constraintlayout.widget.ConstraintLayout
+
     android:layout_height="wrap_content"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
-
-    <com.google.android.material.card.MaterialCardView
-        app:cardPreventCornerOverlap="true"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:cardCornerRadius="15dp"
-        app:cardElevation="10dp"
-        app:layout_constraintTop_toTopOf="parent"
-        android:background="@color/paperRead"
-        android:paddingBottom="@dimen/cardview_compat_inset_shadow"
-        app:layout_constraintCircleRadius="@dimen/cardview_default_radius">
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal">
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+<LinearLayout
+    android:id="@+id/aview"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal"
+    android:paddingHorizontal="20dp"
+    android:background="@drawable/mini_board"
+    android:dividerPadding="0dp"
+    android:divider="@color/white"
+    android:addStatesFromChildren="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
             <ImageView
+                android:paddingLeft="30dp"
                 android:layout_width="35dp"
-                android:layout_height="match_parent"
+                android:layout_height="35dp"
                 android:textAlignment="center"
                 android:background="@drawable/ic_baseline_check_box_24"
                 />
             <TextView
-                android:id="@+id/corrects"
+                android:id="@+id/corrects_indicator"
                 android:layout_width="100dp"
                 android:layout_height="fill_parent"
                 android:layout_gravity="center_horizontal"
                 android:text="Empty"
-                android:textSize="24dp"
+                android:textSize="28dp"
                 />
             <TextView
                 android:id="@+id/topic_difficulty"
                 android:layout_width="100dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
+                android:textSize="15dp"
                 android:text="Empty\nEmpty"
+                android:textColor="@color/white"
                 />
             <TextView
-                android:id="@+id/time"
+                android:id="@+id/time_indicator"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"
-                android:layout_gravity="center_horizontal"
-                android:text="MM:HH DD/MM/YY"
+                android:text="mm:hh dd/mm/yy"
+                android:textSize="15dp"
                 />
 
         </LinearLayout>
-    </com.google.android.material.card.MaterialCardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

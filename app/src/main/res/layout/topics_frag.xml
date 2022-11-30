@@ -73,6 +73,7 @@
                 android:text="Văn học"
                 android:textAlignment="center"
                 android:textSize="30dp"
+                android:onClick="chooseTopic"
                 />
 
             <Button
@@ -85,7 +86,9 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30dp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                android:onClick="chooseTopic"
+                />
 
             <Button
                 android:id="@+id/sports_button"
@@ -97,7 +100,9 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30dp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                android:onClick="chooseTopic"
+                />
 
             <Button
                 android:id="@+id/economics_button"
@@ -110,7 +115,7 @@
                 android:textColor="@color/black"
                 android:textSize="30dp"
                 app:cornerRadius="15dp"
-
+                android:onClick="chooseTopic"
                 />
 
             <Button
@@ -123,7 +128,9 @@
                 android:textAlignment="center"
                 android:textColor="@color/black"
                 android:textSize="30dp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                android:onClick="chooseTopic"
+                />
 
             <Button
                 android:id="@+id/geography_button"
@@ -135,7 +142,9 @@
                 android:text="ĐỊA LÝ"
                 android:textAlignment="center"
                 android:textSize="30dp"
-                app:cornerRadius="15dp" />
+                app:cornerRadius="15dp"
+                android:onClick="chooseTopic"
+                />
         </LinearLayout>
 
 

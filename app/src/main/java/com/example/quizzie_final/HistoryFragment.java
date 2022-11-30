@@ -1,9 +1,12 @@
 package com.example.quizzie_final;
 
+import android.app.Activity;
 import android.os.Bundle;
 
+import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -18,35 +21,27 @@ import java.util.Arrays;
 import java.util.Date;
 import java.util.ArrayList;
 import java.util.LinkedList;
+import java.util.List;
 
 public class HistoryFragment extends Fragment {
-    public static class History {
-        public String time = "MM:HH DD/MM/YY";
-        public int count = 0;
-        public String difficulty = "Empty";
-        public String topic = "Empty";
-        public History() {
-            //empty
-        }
-
-    }
 
 
-        private final static SimpleDateFormat sdf = new SimpleDateFormat("'HH:mm  ' 'dd/MM/yyyy'");
+        private final static SimpleDateFormat sdf = new SimpleDateFormat("HH:mm   dd/MM/yyyy");
         public static History current =  new History();
-        public static ArrayList<History> listHistory =  new ArrayList<History>();
+        public static ArrayList<History> history_list = new ArrayList<History>();
 
         public static void initTime(){
             current.time = sdf.format(new Date());
         }
 
-        public static void addAndReset(){
-            listHistory.add(current);
+        public void addAndReset(MainActivity activity) {
+            history_list.add(current);
             current = new History();
         }
 
         public static void increaseCount(){
-            current.count+=1;
+            current.count = current.count+1;
+            Log.v("COUNTT", String.valueOf(current.count));
         }
 
         public static void setDifficulty(String _difficulty){
@@ -68,7 +63,8 @@ public class HistoryFragment extends Fragment {
     }
     @Override
     public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+
+            super.onCreate(savedInstanceState);
     }
 
     @Override
@@ -77,22 +73,33 @@ public class HistoryFragment extends Fragment {
 
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.history_fragment, container, false);
-        LinearLayout list = (LinearLayout) view.findViewById(R.id.history_list);
-        for (History history : listHistory) {
-            addHistory(list, history);
+        LinearLayout layout = view.findViewById(R.id.history_list);
+        for (History history : history_list){
+            addHistory(getActivity(), history, layout);
         }
         return view;
     }
+
+
+
+
     // add a view in linear layout
-    private void addHistory(LinearLayout list, History history){
-        View historyView = getLayoutInflater().inflate(R.layout.history_view, null);
-        TextView corrects = historyView.findViewById(R.id.corrects);
+    public void addHistory(Activity activity, History history, LinearLayout layout){
+        View historyView = LayoutInflater.from(activity).inflate(R.layout.history_view, null);
+        if(historyView != null) {
+            Log.v("BEEN CALLED", "OK");
+        }
+        TextView corrects =  historyView.findViewById(R.id.corrects_indicator);
         TextView topic_difficulty = historyView.findViewById(R.id.topic_difficulty);
-        TextView time = historyView.findViewById(R.id.time);
-        corrects.setText(history.count + "/5");
-        topic_difficulty.setText(history.count + "/5");
+        TextView time =  historyView.findViewById(R.id.time_indicator);
+        corrects.setText(String.valueOf(history.count) + "/5");
+        topic_difficulty.setText(history.topic + "\n" + history.difficulty);
         time.setText(history.time);
-        list.addView(historyView);
+        if(layout == null){
+            Log.v("NULL", "CMNR");
+        }
+        layout.addView(historyView);
+
     }
 
 }

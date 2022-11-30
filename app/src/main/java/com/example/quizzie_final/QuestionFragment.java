@@ -5,9 +5,12 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
+import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Button;
+import android.widget.TextView;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -33,6 +36,8 @@ public class QuestionFragment extends Fragment {
     private static int correctAnsPos = 1;
     private static String currentQuestion = "Empty";
     private static String[] answers = {"A", "B", "C", "D"};
+    public static TextView trueAns;
+    public static Button nextButton;
     // TODO: Rename and change types of parameters
 
     public QuestionFragment() {
@@ -52,7 +57,20 @@ public class QuestionFragment extends Fragment {
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_question, container, false);
-        //modifify text for question view
+
+        TextView answerA = (TextView) view.findViewById(R.id.a_button);
+        TextView answerB = (TextView) view.findViewById(R.id.b_button);
+        TextView answerC = (TextView) view.findViewById(R.id.c_button);
+        TextView answerD = (TextView) view.findViewById(R.id.d_button);
+        answerA.setText("A. "  + answers[0]);
+        answerB.setText("B. "  + answers[1]);
+        answerC.setText("C. "  + answers[2]);
+        answerD.setText("D. "  + answers[3]);
+        TextView ques = (TextView) view.findViewById(R.id.question_title);
+        ques.setText("Câu hỏi " + currentQuestionCount + ":\n" + currentQuestion);
+        int id[] = {R.id.a_button, R.id.b_button, R.id.c_button, R.id.d_button};
+        trueAns = (TextView) view.findViewById(id[correctAnsPos-1]);
+        nextButton = (Button) view.findViewById(R.id.next_button);
         return view;
     }
     public static void loadJSONFromAsset(Context context) throws JSONException {
@@ -75,14 +93,18 @@ public class QuestionFragment extends Fragment {
             ex.printStackTrace();
         }
         questionBank = new JSONObject(json);
+
     }
 
 
     // generate random question by topic and difficulty
-    public static void generateQuestions(String topic, String difficulty) throws JSONException {
+    public static void generateQuestions(MainActivity activity, String topic, String difficulty) throws JSONException {
+        loadJSONFromAsset(activity);
         JSONArray all =  questionBank.getJSONObject(topic).getJSONArray(difficulty);
+        currentQuestionCorrects = 0;
+        currentQuestionCount = 0;
         int[] ranNum = new int[5];
-        // generate 5 unique random numbers
+        // generate 4 unique random numbers
         for (int i =0; i<5; i++){
             boolean b = true;
             while (b){
@@ -92,9 +114,12 @@ public class QuestionFragment extends Fragment {
                         b = true;
                         break;
                     }
-                    if (j>= i){
+                    if (j == i-1){
                         b = false;
                     }
+                }
+                if (i==0){
+                    break;
                 }
             }
             list[i] = all.getJSONObject(ranNum[i]);
@@ -104,12 +129,12 @@ public class QuestionFragment extends Fragment {
 
     public static void loadNextQuestion() throws JSONException {
         currentQuestionCount+=1;
-        currentQuestion = list[currentQuestionCount].getString("question");
+        currentQuestion = list[currentQuestionCount-1].getString("question");
+        JSONArray ans = list[currentQuestionCount-1].getJSONArray("answers");
         for (int i =0; i<4; i++){
-            answers[i] = list[currentQuestionCount].getJSONArray("answers").get(i).toString();
+            answers[i] = ans.getString(i);
         }
-        correctAnsPos = list[currentQuestionCount].getInt("correct");
-
+        correctAnsPos = list[currentQuestionCount-1].getInt("correct");
     }
 
     public static void showAnwer(){
@@ -117,6 +142,6 @@ public class QuestionFragment extends Fragment {
     }
 
     public static boolean isCorrectAnswer(String answerNum){
-        return answerNum == String.valueOf(correctAnsPos);
+        return answerNum.equals(String.valueOf(correctAnsPos));
     }
 }
