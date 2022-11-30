@@ -39,6 +39,11 @@ public class QuestionFragment extends Fragment {
     private static String currentQuestion = "Empty";
     private static String[] answers = {"A", "B", "C", "D"};
     public static TextView trueAns;
+    public static TextView answerA;
+    public static TextView answerB;
+    public static TextView answerC;
+    public static TextView answerD;
+
     public static Button nextButton;
     // TODO: Rename and change types of parameters
 
@@ -60,10 +65,10 @@ public class QuestionFragment extends Fragment {
         // Inflate the layout for this fragment
         View view = inflater.inflate(R.layout.fragment_question, container, false);
         ProgressBar progressBar = (ProgressBar) view.findViewById(R.id.progressBar);
-        TextView answerA = (TextView) view.findViewById(R.id.a_button);
-        TextView answerB = (TextView) view.findViewById(R.id.b_button);
-        TextView answerC = (TextView) view.findViewById(R.id.c_button);
-        TextView answerD = (TextView) view.findViewById(R.id.d_button);
+        answerA = (TextView) view.findViewById(R.id.a_button);
+        answerB = (TextView) view.findViewById(R.id.b_button);
+        answerC = (TextView) view.findViewById(R.id.c_button);
+        answerD = (TextView) view.findViewById(R.id.d_button);
         answerA.setText("A. "  + answers[0]);
         answerB.setText("B. "  + answers[1]);
         answerC.setText("C. "  + answers[2]);
@@ -140,7 +145,11 @@ public class QuestionFragment extends Fragment {
         correctAnsPos = list[currentQuestionCount-1].getInt("correct");
     }
 
-    public static void showAnwer(){
+    public static void unclickButton(){
+        answerA.setClickable(false);
+        answerB.setClickable(false);
+        answerC.setClickable(false);
+        answerD.setClickable(false);
         //show answer
     }
 

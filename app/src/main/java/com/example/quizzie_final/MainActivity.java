@@ -122,7 +122,6 @@ public class MainActivity extends AppCompatActivity {
 
     public void submitAnswer(View view){
         TextView selectedAnswer = (TextView) view;
-        Log.v(view.getTag().toString(), "TAGA");
          if(QuestionFragment.isCorrectAnswer(view.getTag().toString())){
              QuestionFragment.currentQuestionCorrects+=1;
              HistoryFragment.increaseCount();
@@ -132,6 +131,7 @@ public class MainActivity extends AppCompatActivity {
              selectedAnswer.setBackgroundResource(R.drawable.red_button);
              QuestionFragment.trueAns.setBackgroundResource(R.drawable.green_button);
          }
+         QuestionFragment.unclickButton();
          QuestionFragment.nextButton.setVisibility(View.VISIBLE);
          QuestionFragment.nextButton.setClickable(true);
 

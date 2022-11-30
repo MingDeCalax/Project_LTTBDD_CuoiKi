@@ -41,7 +41,6 @@ public class HistoryFragment extends Fragment {
 
         public static void increaseCount(){
             current.count = current.count+1;
-            Log.v("COUNTT", String.valueOf(current.count));
         }
 
         public static void setDifficulty(String _difficulty){
@@ -87,7 +86,6 @@ public class HistoryFragment extends Fragment {
     public void addHistory(Activity activity, History history, LinearLayout layout){
         View historyView = LayoutInflater.from(activity).inflate(R.layout.history_view, null);
         if(historyView != null) {
-            Log.v("BEEN CALLED", "OK");
         }
         TextView corrects =  historyView.findViewById(R.id.corrects_indicator);
         TextView topic_difficulty = historyView.findViewById(R.id.topic_difficulty);
@@ -95,9 +93,6 @@ public class HistoryFragment extends Fragment {
         corrects.setText(String.valueOf(history.count) + "/5");
         topic_difficulty.setText(history.topic + "\n" + history.difficulty);
         time.setText(history.time);
-        if(layout == null){
-            Log.v("NULL", "CMNR");
-        }
         layout.addView(historyView);
 
     }
