@@ -13,8 +13,7 @@
     android:background="@drawable/mini_board"
     android:dividerPadding="0dp"
     android:divider="@color/white"
-    android:addStatesFromChildren="true"
-    xmlns:android="http://schemas.android.com/apk/res/android">
+    android:addStatesFromChildren="true">
 
             <ImageView
                 android:paddingLeft="30dp"
@@ -31,16 +30,17 @@
                 android:text="Empty"
                 android:textSize="28dp"
                 />
-            <TextView
-                android:id="@+id/topic_difficulty"
-                android:layout_width="100dp"
-                android:layout_height="wrap_content"
-                android:layout_gravity="center_horizontal"
-                android:textSize="15dp"
-                android:text="Empty\nEmpty"
-                android:textColor="@color/white"
-                />
-            <TextView
+
+    <TextView
+        android:id="@+id/topic_difficulty"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:text="Empty\nEmpty"
+        android:textColor="@color/white"
+        android:textSize="15dp" />
+
+    <TextView
                 android:id="@+id/time_indicator"
                 android:layout_width="fill_parent"
                 android:layout_height="match_parent"

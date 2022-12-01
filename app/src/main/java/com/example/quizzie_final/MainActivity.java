@@ -41,6 +41,8 @@ public class MainActivity extends AppCompatActivity {
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        getSupportActionBar().setDisplayShowTitleEnabled(false);
+
         bottomNavi = findViewById(R.id.bottomNavigationView);
         mainFrag = new TopicsFragment();
         replaceFragment(mainFrag);

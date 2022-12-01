@@ -8,10 +8,6 @@
     tools:context=".FragmentDifficult">
 
     <!-- TODO: Update blank fragment layout -->
-    <include
-    android:id="@+id/toolbar"
-    layout="@layout/toolbar"
-    />
 
     <RelativeLayout
         android:id="@+id/diff_title"
@@ -20,16 +16,17 @@
         android:layout_width="370dp"
         android:layout_height="220dp"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toTopOf="@id/normal_button"
+        app:layout_constraintBottom_toTopOf="@id/easy_button"
         >
-    <ImageView
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:background="@drawable/board"
-        app:layout_constraintHorizontal_bias="0.491"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/board"
+            app:layout_constraintHorizontal_bias="0.491"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent" />
 
         <TextView
             android:id="@+id/dif_title"
@@ -41,16 +38,18 @@
             android:textColor="@color/white"
             android:textSize="35dp"
             android:textStyle="bold"
-            tools:layout_editor_absoluteY="60dp" />
+            tools:layout_editor_absoluteX="19dp"
+            tools:layout_editor_absoluteY="41dp" />
+
     </RelativeLayout>
 
     <Button
         android:id="@+id/easy_button"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_below="@+id/toolbar"
         android:background="@drawable/easy_button"
         android:fontFamily="@font/baloo"
+        android:onClick="chooseDifficulty"
         android:text="Dễ"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -60,8 +59,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.959"
-        android:onClick="chooseDifficulty"/>
+        app:layout_constraintVertical_bias="0.958" />
 
     <Button
         android:id="@+id/normal_button"
@@ -69,6 +67,7 @@
         android:layout_height="80dp"
         android:background="@drawable/medium_button"
         android:fontFamily="@font/baloo"
+        android:onClick="chooseDifficulty"
         android:text="Trung Bình"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -78,16 +77,15 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.961"
-        android:onClick="chooseDifficulty"/>
+        app:layout_constraintVertical_bias="0.965" />
 
     <Button
         android:id="@+id/hard_button"
         android:layout_width="300dp"
         android:layout_height="80dp"
-        android:layout_below="@+id/toolbar"
         android:background="@drawable/hard_icon"
         android:fontFamily="@font/baloo"
+        android:onClick="chooseDifficulty"
         android:text="Khó"
         android:textAlignment="center"
         android:textColor="@color/white"
@@ -97,8 +95,7 @@
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.875"
-        android:onClick="chooseDifficulty"/>
+        app:layout_constraintVertical_bias="0.943" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

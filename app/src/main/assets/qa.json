@@ -538,7 +538,7 @@
     ],
     "hard": [
       {
-        "question": "What's the result of A: /n 9A x 2 - 139 = 77",
+        "question": "What's the result of A: \n 9A x 2 - 139 = 77",
         "answers": [
           "70",
           "73",
@@ -558,7 +558,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: /n 9A x 2 - 139 = 77",
+        "question": "What's the result of A: \n9A x 2 - 139 = 77",
         "answers": [
           "70",
           "73",
@@ -578,7 +578,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: /n 9A x 5 - 139 = 2561",
+        "question": "What's the result of A: \n 9A x 5 - 139 = 2561",
         "answers": [
           "59",
           "60",
@@ -598,7 +598,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: /n 7A x 3 - 139 = 1394",
+        "question": "What's the result of A: \n 7A x 3 - 139 = 1394",
         "answers": [
           "70",
           "73",
@@ -618,7 +618,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: /n 3A x 2 - 139 = 647",
+        "question": "What's the result of A: \n 3A x 2 - 139 = 647",
         "answers": [
           "130",
           "131",
@@ -638,7 +638,7 @@
         "correct":3
       },
       {
-        "question": "What's the result of A: /n 8A x 3 - 139 = 1229",
+        "question": "What's the result of A: \n8A x 3 - 139 = 1229",
         "answers": [
           "57",
           "56",
@@ -658,7 +658,7 @@
         "correct":3
       },
       {
-        "question": "What's the result of A: /n 7A x 6 - 232 = 566",
+        "question": "What's the result of A: \n7A x 6 - 232 = 566",
         "answers": [
           "17",
           "18",
@@ -678,7 +678,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: /n 5A x 4 + 139 = 539",
+        "question": "What's the result of A: \n5A x 4 + 139 = 539",
         "answers": [
           "21",
           "22",
@@ -698,7 +698,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: /n 7A x 5 - 1239 = -84",
+        "question": "What's the result of A: \n7A x 5 - 1239 = -84",
         "answers": [
           "30",
           "31",
@@ -718,7 +718,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: /n 8A x 12 - 1239 = 681",
+        "question": "What's the result of A: \n8A x 12 - 1239 = 681",
         "answers": [
           "20",
           "21",
@@ -1564,7 +1564,7 @@
         "correct":1
       },
       {
-        "question": "Hoàn thiện câu sau: /n Trời sinh Lee Chong Wei sao còn sinh ... ?",
+        "question": "Hoàn thiện câu sau: \nTrời sinh Lee Chong Wei sao còn sinh ... ?",
         "answers": [
           "Taufik Hidayat",
           "Chen Long",
