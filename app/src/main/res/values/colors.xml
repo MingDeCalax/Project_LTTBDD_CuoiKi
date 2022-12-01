@@ -8,8 +8,8 @@
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
     <color name="green">#4CAF50</color>
-    <color name="paperRead">#EDDD6E</color>
-
+    <color name="paperRead">#F2EECB</color>
+    <color name="gray">#EBECF8</color>
     <color name="colorPrimary">#212121</color>
     <color name="colorChat">#424242</color>
     <color name="colorButton">#FF6900</color>

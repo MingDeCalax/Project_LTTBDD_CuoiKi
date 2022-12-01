@@ -55,7 +55,9 @@ public class HistoryFragment extends Fragment {
         public static String getTopic(){
             return current.topic;
         }
-
+        public static int getCorrects(){
+            return current.count;
+        }
 
     public HistoryFragment() {
         // Required empty public constructor

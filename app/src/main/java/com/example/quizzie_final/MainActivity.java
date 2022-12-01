@@ -1,5 +1,8 @@
 package com.example.quizzie_final;
 
+import android.content.ClipData;
+import android.content.ClipboardManager;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.Drawable;
 import android.os.Build;
@@ -23,6 +26,8 @@ import com.google.android.material.bottomnavigation.BottomNavigationView;
 import com.google.android.material.navigation.NavigationBarView;
 
 import org.json.JSONException;
+
+import java.util.Locale;
 
 public class MainActivity extends AppCompatActivity {
     ActivityMainBinding binding;
@@ -143,12 +148,10 @@ public class MainActivity extends AppCompatActivity {
     }
     public void terminateQuestion(View view) throws JSONException {
         if (QuestionFragment.currentQuestionCount == 5){
+            ResultFragment.setCorrect(HistoryFragment.getCorrects());
             historyFrag.addAndReset(this);
-            Result result = new Result();
-
-            mainFrag = new TopicsFragment();
+            mainFrag = new ResultFragment();
             replaceFragment(mainFrag);
-
         }
         else {
             QuestionFragment.loadNextQuestion();
@@ -157,28 +160,42 @@ public class MainActivity extends AppCompatActivity {
         }
             //create and show new fragment for new question
     }
+    public void replay(View view){
+        mainFrag = new TopicsFragment();
+        replaceFragment(mainFrag);
+    }
+    public void copy(View view){
+        ClipboardManager clipboard = (ClipboardManager) getSystemService(Context.CLIPBOARD_SERVICE);
+        ClipData clip = ClipData.newPlainText("Message Copied", ResultFragment.message);
+        clipboard.setPrimaryClip(clip);
+    }
 
     public void chooseTopic(View view) throws JSONException {
+        String topic;
         switch (view.getId()) {
             case R.id.math_button:
-                HistoryFragment.setTopic("math");
+                topic = "math";
                 break;
             case R.id.economics_button:
-                HistoryFragment.setTopic("economics");
+                topic = "economics";
                 break;
             case R.id.geography_button:
-                HistoryFragment.setTopic("geography");
+                topic = "geography";
                 break;
             case R.id.literature_button:
-                HistoryFragment.setTopic("literature");
+                topic = "literature";
                 break;
             case R.id.music_button:
-                HistoryFragment.setTopic("music");
+                topic = "music";
                 break;
             case R.id.sports_button:
-                HistoryFragment.setTopic("sports");
+                topic = "sports";
                 break;
+            default:
+                topic = "";
         }
+        HistoryFragment.setTopic(topic);
+        ResultFragment.setTopic(topic);
         mainFrag = new FragmentDifficult();
         replaceFragment(mainFrag);
     }
@@ -186,16 +203,19 @@ public class MainActivity extends AppCompatActivity {
     public void chooseDifficulty(View view) throws JSONException {
         switch (view.getId()) {
             case R.id.easy_button:
-                HistoryFragment.setDifficulty("Easy");
+                HistoryFragment.setDifficulty("easy");
+                ResultFragment.setDifficulty("Easy");
                 break;
             case R.id.normal_button:
-                HistoryFragment.setDifficulty("Medium");
+                HistoryFragment.setDifficulty("medium");
+                ResultFragment.setDifficulty("Medium");
                 break;
             case R.id.hard_button:
-                HistoryFragment.setDifficulty("Hard");
+                HistoryFragment.setDifficulty("hard");
+                ResultFragment.setDifficulty("Hard");
                 break;
         }
-        QuestionFragment.generateQuestions(this ,HistoryFragment.getTopic(), HistoryFragment.getDifficulty());
+        QuestionFragment.generateQuestions(this ,HistoryFragment.getTopic(), HistoryFragment.getDifficulty().toLowerCase(Locale.ROOT));
         HistoryFragment.initTime();
         QuestionFragment.loadNextQuestion();
         mainFrag = new QuestionFragment();
