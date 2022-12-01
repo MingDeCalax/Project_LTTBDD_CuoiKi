@@ -62,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
             return false;
         };
         bottomNavi.setOnItemSelectedListener(naviListener);
+
     }
 
     @Override
@@ -142,8 +143,9 @@ public class MainActivity extends AppCompatActivity {
     }
     public void terminateQuestion(View view) throws JSONException {
         if (QuestionFragment.currentQuestionCount == 5){
-            Log.v("CCC", "DM");
             historyFrag.addAndReset(this);
+            Result result = new Result();
+
             mainFrag = new TopicsFragment();
             replaceFragment(mainFrag);
 
@@ -184,13 +186,13 @@ public class MainActivity extends AppCompatActivity {
     public void chooseDifficulty(View view) throws JSONException {
         switch (view.getId()) {
             case R.id.easy_button:
-                HistoryFragment.setDifficulty("easy");
+                HistoryFragment.setDifficulty("Easy");
                 break;
             case R.id.normal_button:
-                HistoryFragment.setDifficulty("medium");
+                HistoryFragment.setDifficulty("Medium");
                 break;
             case R.id.hard_button:
-                HistoryFragment.setDifficulty("hard");
+                HistoryFragment.setDifficulty("Hard");
                 break;
         }
         QuestionFragment.generateQuestions(this ,HistoryFragment.getTopic(), HistoryFragment.getDifficulty());
