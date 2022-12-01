@@ -10,8 +10,7 @@ A Quizzzz Game created by UET-VNU students
 <img width="302" alt="Screen Shot 2022-12-01 at 21 45 40" src="https://user-images.githubusercontent.com/71619694/205082422-48427cc7-d976-4cfa-94c2-30e2acca7369.png">
 4. Nhấn next
 <img width="306" alt="Screen Shot 2022-12-01 at 21 45 58" src="https://user-images.githubusercontent.com/71619694/205082498-d70c8e49-4387-4ddc-a49c-f3f9ab387eaf.png">
-5. Trả lời hết toàn bộ câu hỏi 
-
+5. Trả lời hết toàn bộ câu hỏi
 6. Chia sẻ kết quả
 <img width="304" alt="Screen Shot 2022-12-01 at 21 47 05" src="https://user-images.githubusercontent.com/71619694/205082735-f058431b-903e-4c33-bd3b-5d50baeb852b.png">
 7. Lịch sử chơi
