@@ -5,7 +5,7 @@
     <item
     android:id="@+id/game"
     android:title="Play"
-    android:icon="@drawable/game_icon"/>
+    android:icon="@drawable/game_icon" />
 
     <item
         android:id="@+id/history"

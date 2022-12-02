@@ -7,13 +7,26 @@
     android:background="@color/colorChat">
 
     <!-- TODO: Update blank fragment layout -->
-
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+     <TextView
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content"
+         android:text="Lịch sử chơi"
+         android:textAlignment="center"
+         android:textSize="40dp"
+         android:textColor="@color/colorButton"
+         android:paddingTop="20dp"
+         ></TextView>
     <ScrollView
         android:id="@+id/scrollViewHistory"
         android:layout_width="match_parent"
 
-        android:layout_height="match_parent"
-
+        android:layout_height="fill_parent"
+        android:paddingTop="20dp"
         tools:layout_editor_absoluteX="0dp">
 
 
@@ -29,5 +42,7 @@
 
 
     </ScrollView>
+    </LinearLayout>
+
 </FrameLayout>
 

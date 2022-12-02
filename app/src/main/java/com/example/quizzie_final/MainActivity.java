@@ -174,27 +174,27 @@ public class MainActivity extends AppCompatActivity {
         String topic;
         switch (view.getId()) {
             case R.id.math_button:
-                topic = "math";
+                topic = "Math";
                 break;
             case R.id.economics_button:
-                topic = "economics";
+                topic = "Economics";
                 break;
             case R.id.geography_button:
-                topic = "geography";
+                topic = "Geography";
                 break;
             case R.id.literature_button:
-                topic = "literature";
+                topic = "Literature";
                 break;
             case R.id.music_button:
-                topic = "music";
+                topic = "Music";
                 break;
             case R.id.sports_button:
-                topic = "sports";
+                topic = "Sports";
                 break;
             default:
                 topic = "";
         }
-        HistoryFragment.setTopic(topic);
+        HistoryFragment.setTopic(topic.toLowerCase());
         ResultFragment.setTopic(topic);
         mainFrag = new FragmentDifficult();
         replaceFragment(mainFrag);
