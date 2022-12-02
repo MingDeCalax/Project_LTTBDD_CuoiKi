@@ -22,6 +22,7 @@ import java.util.Date;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.List;
+import java.util.Locale;
 
 public class HistoryFragment extends Fragment {
 
@@ -93,7 +94,7 @@ public class HistoryFragment extends Fragment {
         TextView topic_difficulty = historyView.findViewById(R.id.topic_difficulty);
         TextView time =  historyView.findViewById(R.id.time_indicator);
         corrects.setText(String.valueOf(history.count) + "/5");
-        topic_difficulty.setText(history.topic + "\n" + history.difficulty);
+        topic_difficulty.setText(history.topic.substring(0,1).toUpperCase(Locale.ROOT) + history.topic.substring(1) + "\n" + history.difficulty.substring(0,1).toUpperCase(Locale.ROOT) + history.difficulty.substring(1));
         time.setText(history.time);
         layout.addView(historyView);
 

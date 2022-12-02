@@ -3,22 +3,28 @@
     android:layout_height="wrap_content"
     android:layout_width="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android"
-    >
+    xmlns:app="http://schemas.android.com/apk/res-auto">
 <LinearLayout
     android:id="@+id/aview"
+    android:layout_marginTop="10dp"
     android:layout_width="match_parent"
     android:layout_height="40dp"
     android:orientation="horizontal"
     android:paddingHorizontal="20dp"
     android:background="@drawable/mini_board"
-    android:dividerPadding="0dp"
     android:divider="@color/white"
-    android:addStatesFromChildren="true">
+    android:addStatesFromChildren="true"
+    app:layout_constraintTop_toTopOf="parent"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    >
 
             <ImageView
                 android:paddingLeft="30dp"
                 android:layout_width="35dp"
                 android:layout_height="35dp"
+                android:layout_gravity="center"
                 android:textAlignment="center"
                 android:background="@drawable/ic_baseline_check_box_24"
                 />
@@ -46,6 +52,7 @@
                 android:layout_height="match_parent"
                 android:text="mm:hh dd/mm/yy"
                 android:textSize="15dp"
+                android:gravity="center"
                 />
 
         </LinearLayout>

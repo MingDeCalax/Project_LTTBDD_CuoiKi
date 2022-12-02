@@ -12,19 +12,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         >
-     <TextView
-         android:layout_width="match_parent"
-         android:layout_height="wrap_content"
-         android:text="Lịch sử chơi"
-         android:textAlignment="center"
-         android:textSize="40dp"
-         android:textColor="@color/colorButton"
-         android:paddingTop="20dp"
-         ></TextView>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:src="@drawable/history_banner"
+            android:layout_gravity="start"/>
     <ScrollView
         android:id="@+id/scrollViewHistory"
         android:layout_width="match_parent"
-
         android:layout_height="fill_parent"
         android:paddingTop="20dp"
         tools:layout_editor_absoluteX="0dp">

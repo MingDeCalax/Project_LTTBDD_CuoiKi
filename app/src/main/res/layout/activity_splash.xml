@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash_bg"
+    android:background="@drawable/result_bg"
     tools:context=".Splash">
 
     <ImageView
@@ -22,11 +22,11 @@
     <TextView
         android:id="@+id/textView2"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_height="51dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="72dp"
         android:layout_marginEnd="16dp"
-        android:text="Welcome to Quizzie"
+        android:text="Welcome to Quiz"
         android:textColor="@color/black"
         android:textSize="30sp"
         android:textStyle="bold"

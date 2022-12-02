@@ -3024,7 +3024,7 @@
         "correct":1
       }
     ],
-    "easy": [
+    "medium": [
       {
         "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [
@@ -3176,7 +3176,7 @@
         "correct":1
       }
     ],
-    "easy": [
+    "hard": [
       {
         "question": "Đơn vị tiền tệ của Việt Nam là gì?",
         "answers": [

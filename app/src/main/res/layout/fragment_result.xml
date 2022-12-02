@@ -68,21 +68,24 @@
                     android:layout_height="30dp"
                     android:text="CHỦ ĐỀ - ĐỘ KHÓ"
                     android:textSize="20dp"/>
+
                 <TextView
                     android:id="@+id/mess"
-                    android:layout_marginTop="20dp"
-                    android:layout_width="match_parent"
+                    android:layout_width="300dp"
                     android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/copiedtext"
+                    android:text="TextView"
                     android:textAlignment="center"
                     android:textSize="20dp"
-                    android:text="TextView"
-                    android:background="@drawable/copiedtext"
 
                     />
+
                 <ImageButton
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:id="@+id/copyButton"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/copy_button"
                     android:onClick="copy"
                     />

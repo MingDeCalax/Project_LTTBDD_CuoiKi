@@ -85,8 +85,8 @@ public class ResultFragment extends Fragment {
         TextView mess = view.findViewById(R.id.mess);
         topicdiff.setText(topic + "    " + difficulty);
         result.setText(correct + "/5");
-        message = "Tôi đã trả lời đúng " + correct + " trên 5 câu hỏi chủ đề "
-                + topic + " với độ khó " + difficulty.toLowerCase() + " cùng tham gia chơi Quizz ngay nào!!!";
+        message = "Tôi đã trả lời đúng " + correct + "/5 câu hỏi chủ đề "
+                + topic + " với độ khó " + difficulty + ".\n Hãy cùng tham gia chơi Quizzie ngay nào!!!";
         mess.setText(message);
         return view;
     }

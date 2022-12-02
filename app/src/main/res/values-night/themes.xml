@@ -2,7 +2,7 @@
     <!-- Base application theme. -->
     <style name="Theme.Quizzie_Final" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">#FF000000</item>
+        <item name="colorPrimary">@color/white</item>
         <item name="colorPrimaryVariant">@color/colorButton</item>
         <item name="colorOnPrimary">@color/white</item>
         <!-- Secondary brand color. -->
@@ -14,7 +14,6 @@
         <item name="android:statusBarColor">@color/colorButton</item>
         <item name="android:windowFullscreen">true</item>
         <item name="android:actionMenuTextColor">@color/colorButton</item>
-        <item name="android:textColor">@color/white</item>
         <!-- Customize your theme here. -->
     </style>
 </resources>
