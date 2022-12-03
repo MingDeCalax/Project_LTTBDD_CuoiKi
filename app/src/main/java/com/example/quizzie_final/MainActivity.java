@@ -82,7 +82,7 @@ public class MainActivity extends AppCompatActivity {
         switch (item.getItemId()){
             case R.id.gop_y:
                 Intent intent = new Intent(Intent.ACTION_SEND);
-                intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "20021517@vnu.edu.vn" });
+                intent.putExtra(Intent.EXTRA_EMAIL, new String[] { "20021517@vnu.edu.vn, 20021259@vnu.edu.vn" });
                 intent.putExtra(Intent.EXTRA_SUBJECT, "Góp ý trò chơi (Android SDK: " + Build.VERSION.SDK_INT + "; version " + Build.VERSION.RELEASE +")");
                 intent.putExtra(Intent.EXTRA_TEXT, "Góp ý của bạn: \n");
                 intent.setType("message/rfc822");

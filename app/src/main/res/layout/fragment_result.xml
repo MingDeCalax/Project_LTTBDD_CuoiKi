@@ -66,6 +66,7 @@
                     android:id="@+id/topic_diff"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
+                    android:layout_marginTop="10dp"
                     android:text="CHỦ ĐỀ - ĐỘ KHÓ"
                     android:textSize="20dp"/>
 
@@ -85,13 +86,13 @@
                     android:layout_width="40dp"
                     android:layout_height="40dp"
                     android:id="@+id/copyButton"
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:background="@drawable/copy_button"
                     android:onClick="copy"
                     />
 
                 <Button
-                    android:layout_marginTop="20dp"
+                    android:layout_marginTop="10dp"
                     android:id="@+id/replay"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
