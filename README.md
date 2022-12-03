@@ -24,10 +24,8 @@ Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên 
 7. Lịch sử chơi
 <img width="328" alt="Screen Shot 2022-12-03 at 10 05 15" src="https://user-images.githubusercontent.com/71619694/205419471-2245b101-764b-4152-9764-feecddacb3b6.png">
 
-Contact:
+8. Contact:
 <img width="340" alt="Screen Shot 2022-12-03 at 10 18 25" src="https://user-images.githubusercontent.com/71619694/205419897-2482b0a3-691f-4f0f-a37c-6ad35a46624e.png">
 
-Góp ý:
+9. Feedback
 <img width="323" alt="Screen Shot 2022-12-03 at 10 17 56" src="https://user-images.githubusercontent.com/71619694/205419882-9fe4a9c7-935c-4216-8b69-4f672f824e16.png">
-
-
