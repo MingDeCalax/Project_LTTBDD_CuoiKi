@@ -3,16 +3,31 @@
 A Quizzzz Game created by UET-VNU students
 
 1. Chọn chủ đề 
-<img width="308" alt="Screen Shot 2022-12-01 at 21 45 05" src="https://user-images.githubusercontent.com/71619694/205082290-28b8b526-429e-4776-8941-a18719e8858b.png">
+<img width="351" alt="Screen Shot 2022-12-03 at 09 57 43" src="https://user-images.githubusercontent.com/71619694/205419215-842f97db-8a02-47c9-a6b9-6378c580de16.png">
+Chọn 1 trong 6 chủ đề, có thể cuộn xuống
 2. Chọn độ khó
-<img width="306" alt="Screen Shot 2022-12-01 at 21 44 31" src="https://user-images.githubusercontent.com/71619694/205082138-98dabb8e-80fc-49d3-b44b-6ebadea323c0.png">
+<img width="343" alt="Screen Shot 2022-12-03 at 10 00 19" src="https://user-images.githubusercontent.com/71619694/205419308-792b4d7f-2896-41f1-a1b5-192281cc3bcf.png">
+Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên thì ko thể chọn lại :))))
 3. Chọn đáp án
-<img width="302" alt="Screen Shot 2022-12-01 at 21 45 40" src="https://user-images.githubusercontent.com/71619694/205082422-48427cc7-d976-4cfa-94c2-30e2acca7369.png">
+<img width="335" alt="Screen Shot 2022-12-03 at 10 02 21" src="https://user-images.githubusercontent.com/71619694/205419376-4b2a212e-2372-46e9-8f45-ff4557d39ddc.png">
+
 4. Nhấn next
-<img width="306" alt="Screen Shot 2022-12-01 at 21 45 58" src="https://user-images.githubusercontent.com/71619694/205082498-d70c8e49-4387-4ddc-a49c-f3f9ab387eaf.png">
+<img width="331" alt="Screen Shot 2022-12-03 at 10 02 44" src="https://user-images.githubusercontent.com/71619694/205419401-8564d8f8-a97b-49bd-9796-aed790440b72.png">
+
 5. Trả lời hết toàn bộ câu hỏi
 
 6. Chia sẻ kết quả
-<img width="304" alt="Screen Shot 2022-12-01 at 21 47 05" src="https://user-images.githubusercontent.com/71619694/205082735-f058431b-903e-4c33-bd3b-5d50baeb852b.png">
+<img width="319" alt="Screen Shot 2022-12-03 at 10 03 07" src="https://user-images.githubusercontent.com/71619694/205419415-a54a8815-14db-42d8-84d2-85a0cdc10654.png">
+
+<img width="326" alt="Screen Shot 2022-12-03 at 10 04 56" src="https://user-images.githubusercontent.com/71619694/205419464-7f1314f9-76f0-479e-b7dc-2b1ce6509f1f.png">
+
 7. Lịch sử chơi
-<img width="311" alt="Screen Shot 2022-12-01 at 21 47 36" src="https://user-images.githubusercontent.com/71619694/205082856-ffdffe19-ec46-4e85-90a5-9c42869d6805.png">
+<img width="328" alt="Screen Shot 2022-12-03 at 10 05 15" src="https://user-images.githubusercontent.com/71619694/205419471-2245b101-764b-4152-9764-feecddacb3b6.png">
+Dev profile:
+<img width="323" alt="Screen Shot 2022-12-03 at 10 06 56" src="https://user-images.githubusercontent.com/71619694/205419532-c8412aa9-f874-497e-b2e4-131985c4851b.png">
+Contact:
+<img width="340" alt="Screen Shot 2022-12-03 at 10 18 25" src="https://user-images.githubusercontent.com/71619694/205419897-2482b0a3-691f-4f0f-a37c-6ad35a46624e.png">
+Góp ý:
+<img width="323" alt="Screen Shot 2022-12-03 at 10 17 56" src="https://user-images.githubusercontent.com/71619694/205419882-9fe4a9c7-935c-4216-8b69-4f672f824e16.png">
+
+
