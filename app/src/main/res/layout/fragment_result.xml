@@ -9,13 +9,14 @@
         android:id="@+id/leaderboard"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:layout_marginBottom="100dp"
         android:src="@drawable/leaderboard_icon"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.058" />
+        app:layout_constraintVertical_bias="0.052" />
 
     <FrameLayout
         android:layout_width="330dp"
@@ -48,7 +49,7 @@
             <TextView
                 android:id="@+id/your_result"
                 android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:layout_height="120dp"
                 android:fontFamily="@font/baloo"
                 android:gravity="center"
                 android:text="5/5"
@@ -66,7 +67,7 @@
                     android:id="@+id/topic_diff"
                     android:layout_width="wrap_content"
                     android:layout_height="30dp"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="0dp"
                     android:text="CHỦ ĐỀ - ĐỘ KHÓ"
                     android:textSize="20dp"/>
 
@@ -78,21 +79,21 @@
                     android:background="@drawable/copiedtext"
                     android:text="TextView"
                     android:textAlignment="center"
-                    android:textSize="20dp"
+                    android:textSize="18dp"
 
                     />
 
                 <ImageButton
-                    android:layout_width="40dp"
-                    android:layout_height="40dp"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
                     android:id="@+id/copyButton"
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="20dp"
                     android:background="@drawable/copy_button"
                     android:onClick="copy"
                     />
 
                 <Button
-                    android:layout_marginTop="10dp"
+                    android:layout_marginTop="30dp"
                     android:id="@+id/replay"
                     android:layout_width="100dp"
                     android:layout_height="50dp"
