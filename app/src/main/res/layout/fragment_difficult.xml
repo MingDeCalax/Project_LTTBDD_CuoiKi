@@ -29,12 +29,12 @@
             app:layout_constraintRight_toRightOf="parent" />
 
         <TextView
-            android:id="@+id/dif_title"
+            android:id="@+id/guide_title"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:fontFamily="@font/baloo"
             android:gravity="center"
-            android:text="Chọn cấp độ mà \n bạn muốn chơi"
+            android:text="Chủ đề\n Hãy chọn độ khó"
             android:textColor="@color/white"
             android:textSize="35dp"
             android:textStyle="bold"
@@ -96,6 +96,24 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.943" />
+
+    <Button
+        android:id="@+id/back_button"
+        android:layout_width="300dp"
+        android:fontFamily="@font/baloo"
+        android:textColor="@color/white"
+        android:textAlignment="textStart"
+        android:paddingStart="0dp"
+        android:layout_height="80dp"
+        android:drawableLeft="@drawable/back_icon"
+        android:textSize="25dp"
+        android:background="@drawable/back_button"
+        android:text="Chọn chủ đề khác"
+        app:layout_constraintBottom_toTopOf="@+id/easy_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diff_title"
+        android:onClick="back"/>
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

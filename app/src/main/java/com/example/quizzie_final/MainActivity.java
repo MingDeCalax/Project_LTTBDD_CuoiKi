@@ -50,6 +50,7 @@ public class MainActivity extends AppCompatActivity {
 
         bottomNavi = findViewById(R.id.bottomNavigationView);
         mainFrag = new TopicsFragment();
+        currentFrag = mainFrag;
         replaceFragment(mainFrag);
         NavigationBarView.OnItemSelectedListener naviListener  = item -> {
             switch (item.getItemId()) {
@@ -101,29 +102,30 @@ public class MainActivity extends AppCompatActivity {
         return super.onOptionsItemSelected(item);
     }
 
+    @Override
+    public void onBackPressed() {
+            super.onBackPressed();
+            currentFrag = fragmentManager.findFragmentById(R.id.content_frame);
+    }
+    public void back(View view){
+        onBackPressed();
+    }
+
     private void replaceFragment(Fragment fragment) {
         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
         fragmentTransaction.setReorderingAllowed(true);
         fragmentTransaction.replace(R.id.content_frame, fragment, null);
+        if(currentFrag.getClass() == TopicsFragment.class
+        && fragment.getClass() == FragmentDifficult.class){
+            fragmentTransaction.addToBackStack("topicfrag");
+       }
         fragmentTransaction.commit();
         currentFrag = fragment;
     }
-     void switchFragment(Fragment newFragment){
-         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-         fragmentTransaction.setReorderingAllowed(true);
-         fragmentTransaction.detach(currentFrag);
-         fragmentTransaction.attach(newFragment);
-         fragmentTransaction.commit();
-         currentFrag = newFragment;
-     }
-     void stopAndAddFragment(Fragment newFragment){
-         FragmentTransaction fragmentTransaction = fragmentManager.beginTransaction();
-         fragmentTransaction.setReorderingAllowed(true);
-         fragmentTransaction.detach(currentFrag);
-         fragmentTransaction.add(newFragment, null);
-         fragmentTransaction.commit();
-         currentFrag = newFragment;
-     }
+
+    private void popBackFragmentStack(){
+        fragmentManager.popBackStack("topicfrag", FragmentManager.POP_BACK_STACK_INCLUSIVE);
+    }
 
     public void submitAnswer(View view){
         TextView selectedAnswer = (TextView) view;
@@ -172,21 +174,27 @@ public class MainActivity extends AppCompatActivity {
         switch (view.getId()) {
             case R.id.math_button:
                 topic = "Math";
+                FragmentDifficult.setTopic("toán");
                 break;
             case R.id.economics_button:
                 topic = "Economics";
+                FragmentDifficult.setTopic("kinh tế");
                 break;
             case R.id.geography_button:
                 topic = "Geography";
+                FragmentDifficult.setTopic("địa lý");
                 break;
             case R.id.literature_button:
                 topic = "Literature";
+                FragmentDifficult.setTopic("văn học");
                 break;
             case R.id.music_button:
                 topic = "Music";
+                FragmentDifficult.setTopic("âm nhạc");
                 break;
             case R.id.sports_button:
                 topic = "Sports";
+                FragmentDifficult.setTopic("thể thao");
                 break;
             default:
                 topic = "";
@@ -198,6 +206,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void chooseDifficulty(View view) throws JSONException {
+        popBackFragmentStack();
         switch (view.getId()) {
             case R.id.easy_button:
                 HistoryFragment.setDifficulty("easy");
@@ -219,6 +228,7 @@ public class MainActivity extends AppCompatActivity {
         replaceFragment(mainFrag);
         //set Fragment
     }
+
 
 
 }

@@ -30,6 +30,7 @@ public class Splash extends AppCompatActivity {
                     e.printStackTrace();
                 }
                 Intent intent = new Intent(Splash.this,MainActivity.class);
+                intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);
                 startActivity(intent);
             }
         }.start();
