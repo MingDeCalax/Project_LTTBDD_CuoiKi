@@ -326,7 +326,7 @@
     ],
     "medium": [
       {
-        "question": "What is the result of A when 2A x 10 = 100",
+        "question": "Tìm giá trị của A: \n 2A x 10 = 100",
         "answers": [
           "5",
           "4",
@@ -346,7 +346,7 @@
         "correct":3
       },
       {
-        "question": "What is the result of A when 3A x 5 = 135",
+        "question": "Tìm giá trị của A: \n 3A x 5 = 135",
         "answers": [
           "1",
           "3",
@@ -366,7 +366,7 @@
         "correct":2
       },
       {
-        "question": "What is the result of A when 9A x 3 = 297",
+        "question": "Tìm giá trị của A: \n 9A x 3 = 297",
         "answers": [
           "8",
           "9",
@@ -386,7 +386,7 @@
         "correct":1
       },
       {
-        "question": "What is the result of A when 4A + 15 = 132",
+        "question": "Tìm giá trị của A: \n 4A + 15 = 132",
         "answers": [
           "67",
           "66",
@@ -406,7 +406,7 @@
         "correct":4
       },
       {
-        "question": "What is the result of A when 5A - 18 = 157",
+        "question": "Tìm giá trị của A: \n 5A - 18 = 157",
         "answers": [
           "35",
           "34",
@@ -426,7 +426,7 @@
         "correct":2
       },
       {
-        "question": "What is the result of A when 9A - 132 = 237",
+        "question": "Tìm giá trị của A: \n 9A - 132 = 237",
         "answers": [
           "41",
           "42",
@@ -446,7 +446,7 @@
         "correct":1
       },
       {
-        "question": "What is the result of A when 3A x 5 = 105",
+        "question": "Tìm giá trị của A: \n 3A x 5 = 105",
         "answers": [
           "1",
           "3",
@@ -466,7 +466,7 @@
         "correct":4
       },
       {
-        "question": "What is the result of A when 9A x 3 = 243",
+        "question": "Tìm giá trị của A: \n 9A x 3 = 243",
         "answers": [
           "8",
           "9",
@@ -486,7 +486,7 @@
         "correct":3
       },
       {
-        "question": "What is the result of A when 4A + 15 = 291",
+        "question": "Tìm giá trị của A: \n 4A + 15 = 291",
         "answers": [
           "67",
           "66",
@@ -506,7 +506,7 @@
         "correct":1
       },
       {
-        "question": "What is the result of A when 5A - 18 = 152",
+        "question": "Tìm giá trị của A: \n 5A - 18 = 152",
         "answers": [
           "35",
           "34",
@@ -526,7 +526,7 @@
         "correct":3
       },
       {
-        "question": "What is the result of A when 9A - 132 = 264",
+        "question": "Tìm giá trị của A: \n 9A - 132 = 264",
         "answers": [
           "41",
           "42",
@@ -538,7 +538,7 @@
     ],
     "hard": [
       {
-        "question": "What's the result of A: \n 9A x 2 - 139 = 77",
+        "question": "Tìm giá trị của A: \n 9A x 2 - 139 = 77",
         "answers": [
           "70",
           "73",
@@ -558,7 +558,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: \n9A x 2 - 139 = 77",
+        "question": "Tìm giá trị của A: \n9A x 2 - 139 = 77",
         "answers": [
           "70",
           "73",
@@ -578,7 +578,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: \n 9A x 5 - 139 = 2561",
+        "question": "Tìm giá trị của A: \n 9A x 5 - 139 = 2561",
         "answers": [
           "59",
           "60",
@@ -598,7 +598,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: \n 7A x 3 - 139 = 1394",
+        "question": "Tìm giá trị của A: \n 7A x 3 - 139 = 1394",
         "answers": [
           "70",
           "73",
@@ -618,7 +618,7 @@
         "correct":1
       },
       {
-        "question": "What's the result of A: \n 3A x 2 - 139 = 647",
+        "question": "Tìm giá trị của A: \n 3A x 2 - 139 = 647",
         "answers": [
           "130",
           "131",
@@ -638,7 +638,7 @@
         "correct":3
       },
       {
-        "question": "What's the result of A: \n8A x 3 - 139 = 1229",
+        "question": "Tìm giá trị của A:\n8A x 3 - 139 = 1229",
         "answers": [
           "57",
           "56",
@@ -658,7 +658,7 @@
         "correct":3
       },
       {
-        "question": "What's the result of A: \n7A x 6 - 232 = 566",
+        "question": "Tìm giá trị của A: \n7A x 6 - 232 = 566",
         "answers": [
           "17",
           "18",
@@ -678,7 +678,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: \n5A x 4 + 139 = 539",
+        "question": "Tìm giá trị của A: \n5A x 4 + 139 = 539",
         "answers": [
           "21",
           "22",
@@ -698,7 +698,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: \n7A x 5 - 1239 = -84",
+        "question": "Tìm giá trị của A: \n7A x 5 - 1239 = -84",
         "answers": [
           "30",
           "31",
@@ -718,7 +718,7 @@
         "correct":2
       },
       {
-        "question": "What's the result of A: \n8A x 12 - 1239 = 681",
+        "question": "Tìm giá trị của A: \n8A x 12 - 1239 = 681",
         "answers": [
           "20",
           "21",

@@ -68,7 +68,6 @@ public class MainActivity extends AppCompatActivity {
             return false;
         };
         bottomNavi.setOnItemSelectedListener(naviListener);
-
     }
 
     @Override
