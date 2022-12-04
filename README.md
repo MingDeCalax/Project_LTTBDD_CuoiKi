@@ -7,8 +7,8 @@ A Quizzzz Game created by UET-VNU students
 
 2. Chọn độ khó. 
 
-<img width="336" alt="Screen Shot 2022-12-04 at 12 40 09" src="https://user-images.githubusercontent.com/71619694/205476440-03600f0a-3b02-4bbe-8147-0ef30b879981.png">__
-Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên thì ko thể chọn lại :)))) __
+<img width="336" alt="Screen Shot 2022-12-04 at 12 40 09" src="https://user-images.githubusercontent.com/71619694/205476440-03600f0a-3b02-4bbe-8147-0ef30b879981.png">
+Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên thì ko thể chọn lại :))))
 
 3. Chọn đáp án
 <img width="329" alt="Screen Shot 2022-12-04 at 12 41 07" src="https://user-images.githubusercontent.com/71619694/205476466-f3b256a6-8462-4dce-aac6-193a070f60a6.png">
@@ -16,11 +16,11 @@ Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên 
 4. Nhấn next
 <img width="330" alt="Screen Shot 2022-12-04 at 12 41 25" src="https://user-images.githubusercontent.com/71619694/205476472-b16c52dc-052d-462a-809d-a8bed3eb1249.png">
 
-5. Trả lời hết toàn bộ câu hỏi __
+5. Trả lời hết toàn bộ câu hỏi 
 
 6. Chia sẻ kết quả
 <img width="319" alt="Screen Shot 2022-12-03 at 10 03 07" src="https://user-images.githubusercontent.com/71619694/205419415-a54a8815-14db-42d8-84d2-85a0cdc10654.png">
-__
+
 <img width="326" alt="Screen Shot 2022-12-03 at 10 04 56" src="https://user-images.githubusercontent.com/71619694/205419464-7f1314f9-76f0-479e-b7dc-2b1ce6509f1f.png">
 
 7. Lịch sử chơi
