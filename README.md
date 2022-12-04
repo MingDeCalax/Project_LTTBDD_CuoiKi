@@ -2,9 +2,9 @@
 
 A Quizzzz Game created by UET-VNU students
 
-1. Chọn chủ đề 
+1. Chọn chủ đề: Chọn 1 trong 6 chủ đề, có thể cuộn xuống
 <img width="351" alt="Screen Shot 2022-12-03 at 09 57 43" src="https://user-images.githubusercontent.com/71619694/205419215-842f97db-8a02-47c9-a6b9-6378c580de16.png">
-Chọn 1 trong 6 chủ đề, có thể cuộn xuống
+
 2. Chọn độ khó
 <img width="343" alt="Screen Shot 2022-12-03 at 10 00 19" src="https://user-images.githubusercontent.com/71619694/205419308-792b4d7f-2896-41f1-a1b5-192281cc3bcf.png">
 Có thể quay lại để chọn topic. Nhưng khi câu hỏi đã hiện lên thì ko thể chọn lại :))))
