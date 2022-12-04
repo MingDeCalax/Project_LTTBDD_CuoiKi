@@ -103,7 +103,7 @@
         android:layout_width="300dp"
         android:fontFamily="@font/baloo"
         android:textColor="@color/white"
-        android:textAlignment="textStart"
+        android:textAlignment="center"
         android:paddingStart="0dp"
         android:layout_height="80dp"
         android:drawableLeft="@drawable/back_icon"
