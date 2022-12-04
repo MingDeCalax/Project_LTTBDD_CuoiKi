@@ -894,236 +894,236 @@
     ],
     "medium": [
       {
-        "question": "Tác giả của Truyện Kiều là ai?",
+        "question": "Tác giả của Số Đỏ là ai?",
         "answers": [
-          "Nguyễn Du",
-          "Nguyễn Trãi",
-          "Nguyễn Phong",
-          "Nguyễn Minh"
+          "Vũ Trọng Phụng",
+          "Nam Cao",
+          "Nguyễn Kim Long",
+          "Nguyễn Tuân"
         ],
         "correct":1
       },
       {
-        "question": "Tên thật của nhà thơ Huy Cận?",
+        "question": "Tên thật của nhà thơ Tản Đà?",
         "answers": [
-          "Cù Huy Cận",
-          "Trần Huy Cận",
-          "Lê Huy Cận",
-          "Ngô Huy Cận"
+          "Lê Đà Tấn",
+          "Nguyễn Khắc Hiếu",
+          "Trần Đức Tuấn",
+          "Nguyễn Đà Tuấn"
         ],
-        "correct":1
+        "correct":2
       },
       {
-        "question": "Lê Quyết Thắng là bút danh của ai?",
+        "question": "Ngọc Oanh là bút danh của ai?",
         "answers": [
           "Lê Anh Xuân",
           "Cao Bá Quát",
           "Chủ tịch Hồ Chí Minh",
-          "Huy Tưởng"
-        ],
-        "correct":3
-      },
-      {
-        "question": "Tác phẩm Mùa Xuân Nho Nhỏ do ai sáng tác?",
-        "answers": [
-          "Quang Tâm",
-          "Quang Hải",
-          "Thanh Tâm",
-          "Thanh Hải"
+          "Nguyễn Công Hoan"
         ],
         "correct":4
       },
       {
-        "question": "Tác phẩm Lam Sơn thực lục do ai sáng tác",
+        "question": "Tác giả của tác phẩm Những Ngày là ai?",
         "answers": [
-          "Nguyễn Khuyến",
-          "Nguyễn Trãi",
           "Nguyễn Đình Chiểu",
-          "Nguyễn Duy"
+          "Thanh Tâm",
+          "Ngô Tất Tố",
+          "Nguyên Hồng"
+        ],
+        "correct":4
+      },
+      {
+        "question": "Tác phẩm Cánh Đồng Bất Tận do ai sáng tác",
+        "answers": [
+          "Nguyễn Ngọc Lân",
+          "Nguyễn Ngọc Tư",
+          "Nguyễn Đình Chiểu",
+          "Nguyễn Đình Tuân"
         ],
         "correct":2
       },
       {
-        "question": "Thể thơ của Truyện Kiều là gì?",
+        "question": "Thể thơ của Ông Đồ là gì?",
         "answers": [
-          "Tự do",
+          "Ngũ ngôn",
           "Lục bát",
           "Thất ngôn bát cú",
           "Thất ngôn tứ tuyệt"
         ],
+        "correct":1
+      },
+      {
+        "question": "Tên thật của nhà thơ Bình Nguyên là gì?",
+        "answers": [
+          "Nguyễn Đức Bình",
+          "Trần Trọng Nguyên",
+          "Nguyễn Bính",
+          "Nguyễn Đức Nguyên"
+        ],
+        "correct":3
+      },
+      {
+        "question": "Trảo Nha là bút danh của ai?",
+        "answers": [
+          "Xuân Diệu",
+          "Xuân Quỳnh",
+          "Hàn Mặc Tử",
+          "Hồ Xuân Hương"
+        ],
+        "correct":1
+      },
+      {
+        "question": "Tác phẩm Vội vàng tác năm nào?",
+        "answers": [
+          "1927",
+          "1938",
+          "1949",
+          "1950"
+        ],
         "correct":2
       },
       {
-        "question": "Tên thật của nhà thơ Hàn Mặc Tử là gì?",
-        "answers": [
-          "Nguyễn Trọng Trí",
-          "Trần Trọng Đức",
-          "Lê Đức Trí",
-          "Ngô Trọng Đức"
-        ],
-        "correct":1
-      },
-      {
-        "question": "Phong Trần là bút danh của ai?",
+        "question": "Tác phẩm Tự tình do ai sáng tác?",
         "answers": [
           "Xuân Diệu",
           "Xuân Quỳnh",
           "Hàn Mặc Tử",
           "Hồ Xuân Hương"
         ],
-        "correct":3
+        "correct":4
       },
       {
-        "question": "Tác phẩm Bài thơ về tiểu đội xe không kính được sáng tác năm nào?",
-        "answers": [
-          "1967",
-          "1968",
-          "1969",
-          "1970"
-        ],
-        "correct":3
-      },
-      {
-        "question": "Tác phẩm Vội Vàng do ai sáng tác?",
-        "answers": [
-          "Xuân Diệu",
-          "Xuân Quỳnh",
-          "Hàn Mặc Tử",
-          "Hồ Xuân Hương"
-        ],
-        "correct":1
-      },
-      {
-        "question": "Thể thơ của bài Tây Tiến là gì?",
+        "question": "Thể thơ của bài Khi con tu hú là gì?",
         "answers": [
           "Tự do",
           "Lục bát",
           "Thất ngôn",
           "Ngũ ngôn"
         ],
-        "correct":3
-      },
-      {
-        "question": "Tên khai sinh của nhà thơ Thế Lữ là gì?",
-        "answers": [
-          "Nguyễn Trọng Thứ",
-          "Nguyễn Lễ Thứ",
-          "Nguyễn Thứ Lễ",
-          "Nguyễn Đình Lễ"
-        ],
         "correct":4
       },
       {
-        "question": "Tố Hữu là bút danh của ai?",
+        "question": "Tên khai sinh của nhà thơ Thanh Thảo là gì?",
         "answers": [
-          "Nguyễn Minh Thành",
-          "Nguyễn Kim Thành",
-          "Nguyễn Sinh Thành",
-          "Nguyễn Vinh Thành"
-        ],
-        "correct":2
-      },
-      {
-        "question": "Tác phẩm Sóng của nhà thơ Xuân Quỳnh được sáng tác năm nào?",
-        "answers": [
-          "1967",
-          "1968",
-          "1969",
-          "1970"
+          "Hồ Thành Công",
+          "Hồ Thanh Thảo",
+          "Nguyễn Thanh Thảo",
+          "Nguyễn Phương Thảo"
         ],
         "correct":1
       },
       {
-        "question": "Tác phẩm Điêu Tàn do ai sáng tác?",
+        "question": "Quê quán nhà thơ Nguyễn Thị Xuân Quỳnh?",
         "answers": [
-          "Nguyễn Dữ",
-          "Chê Lan Viên",
-          "Hàn Mặc Tử",
-          "Hồ Quỳnh Hương"
+          "Hà Nam",
+          "Hà Nội",
+          "Nam Định",
+          "Thái Bình"
         ],
         "correct":2
+      },
+      {
+        "question": "Tác phẩm Báo Tiệp được sáng tác năm nào?",
+        "answers": [
+          "1947",
+          "1948",
+          "1949",
+          "1950"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Tác phẩm Báo Tiệp do ai sáng tác?",
+        "answers": [
+          "Nguyễn Duy",
+          "Chủ tịch Hồ Chí Minh",
+          "Lê Đức Bình",
+          "Tô Hoài"
+        ],
+        "correct":4
       }
       ],
     "hard": [
       {
-        "question": "Tác giả của Truyện Kiều là ai?",
+        "question": "Tác giả của The Catcher in the Rye là ai?",
         "answers": [
-          "Nguyễn Du",
-          "Nguyễn Trãi",
-          "Nguyễn Phong",
-          "Nguyễn Minh"
+          "J. D. Salinger",
+          "Harper Lee",
+          "Pushkin",
+          "Mark Twain"
         ],
         "correct":1
       },
       {
-        "question": "Tên thật của nhà thơ Huy Cận?",
+        "question": "Tên thật của nhà thơ O'Henry?",
         "answers": [
-          "Cù Huy Cận",
-          "Trần Huy Cận",
-          "Lê Huy Cận",
-          "Ngô Huy Cận"
+          "William S. Porter",
+          "John G. Chaney",
+          "Ernest M. Hemingway",
+          "F. Scott Fitzgerald"
         ],
         "correct":1
       },
       {
-        "question": "Lê Quyết Thắng là bút danh của ai?",
+        "question": "Voltaire là bút danh của ai?",
         "answers": [
-          "Lê Anh Xuân",
-          "Cao Bá Quát",
-          "Chủ tịch Hồ Chí Minh",
-          "Huy Tưởng"
+          "Eric Arthur Blair",
+          "Franz Kafka",
+          "Francois-Marie Arouet",
+          "Jack Kerouac"
         ],
         "correct":3
       },
       {
-        "question": "Tác phẩm Mùa Xuân Nho Nhỏ do ai sáng tác?",
+        "question": "Tác phẩm A Christmas Carol do ai sáng tác?",
         "answers": [
-          "Quang Tâm",
-          "Quang Hải",
-          "Thanh Tâm",
-          "Thanh Hải"
-        ],
-        "correct":4
-      },
-      {
-        "question": "Tác phẩm Lam Sơn thực lục do ai sáng tác",
-        "answers": [
-          "Nguyễn Khuyến",
-          "Nguyễn Trãi",
-          "Nguyễn Đình Chiểu",
-          "Nguyễn Duy"
-        ],
-        "correct":2
-      },
-      {
-        "question": "Thể thơ của Truyện Kiều là gì?",
-        "answers": [
-          "Tự do",
-          "Lục bát",
-          "Thất ngôn bát cú",
-          "Thất ngôn tứ tuyệt"
-        ],
-        "correct":2
-      },
-      {
-        "question": "Tên thật của nhà thơ Hàn Mặc Tử là gì?",
-        "answers": [
-          "Nguyễn Trọng Trí",
-          "Trần Trọng Đức",
-          "Lê Đức Trí",
-          "Ngô Trọng Đức"
+          "Charles Dickens",
+          "J. K. Rowling",
+          "Oscar Wilde",
+          "Clara Clemens"
         ],
         "correct":1
       },
       {
-        "question": "Phong Trần là bút danh của ai?",
+        "question": "Tác phẩm Đồi gió hú do ai sáng tác",
         "answers": [
-          "Xuân Diệu",
-          "Xuân Quỳnh",
-          "Hàn Mặc Tử",
-          "Hồ Xuân Hương"
+          "Charles Dickens",
+          "Emily Bronte",
+          "Oscar Wilde",
+          "Clara Clemens"
         ],
-        "correct":3
+        "correct":2
+      },
+      {
+        "question": "Victor Hugo là nhà văn nước nào?",
+        "answers": [
+          "Anh",
+          "Pháp",
+          "Mỹ",
+          "Canada"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Giải Nobel Văn học lần đầu tiên là vào năm nào?",
+        "answers": [
+          "1900",
+          "1901",
+          "1902",
+          "1903"
+        ],
+        "correct":2
+      },
+      {
+        "question": "Ai là người đạt giải Nobel Văn học 2022?",
+        "answers": [
+          "Annie Ernaux",
+          "Abdulrazak Gurnah",
+          "Louise Glück",
+          "Peter Handke"
+        ],
+        "correct":1
       },
       {
         "question": "Tác phẩm Bài thơ về tiểu đội xe không kính được sáng tác năm nào?",
